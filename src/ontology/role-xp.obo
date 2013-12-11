@@ -1,0 +1,1195 @@
+[Term]
+id: CHEBI:22180 ! acetohydroxyacid synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003984 ! acetolactate synthase activity
+
+[Term]
+id: CHEBI:22587 ! antiviral agent
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of MP:0001799 ! Viral
+
+[Term]
+id: CHEBI:23018 ! carbonic anhydrase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004089 ! carbonate dehydratase activity
+
+[Term]
+id: CHEBI:23100 ! chitin synthesis inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0006031 ! chitin biosynthetic process
+
+[Term]
+id: CHEBI:23529 ! cytochrome-b6f complex inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0009512 ! cytochrome b6f complex
+
+[Term]
+id: CHEBI:23924 ! enzyme inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:GO_0003824 ! enzyme activity
+
+[Term]
+id: CHEBI:24319 ! glutamine synthetase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004356 ! glutamate-ammonia ligase activity
+
+[Term]
+id: CHEBI:24621 ! hormone
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:25355 ! mitochondrial respiratory-chain inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0005746 ! mitochondrial respiratory chain
+
+[Term]
+id: CHEBI:26013 ! pheromone
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0005186 ! pheromone activity
+
+[Term]
+id: CHEBI:26087 ! photosynthetic electron-transport chain inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0009767 ! photosynthetic electron transport chain
+
+[Term]
+id: CHEBI:26088 ! photosystem-I inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0009522 ! photosystem I
+
+[Term]
+id: CHEBI:26089 ! photosystem-II inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0009523 ! photosystem II
+
+[Term]
+id: CHEBI:27026 ! toxin
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0015070 ! toxin activity
+
+[Term]
+id: CHEBI:33282 ! antibacterial agent
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of MP:MP_0001794 ! Bacterial
+
+[Term]
+id: CHEBI:35195 ! surfactant
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: _of GO:0019214 ! surfactant activity
+
+[Term]
+id: CHEBI:35457 ! angiotensin-converting enzyme inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:GO_0003824 ! enzyme activity
+
+[Term]
+id: CHEBI:35522 ! beta-adrenergic agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of PR:000022207 ! choline dehydrogenase
+
+[Term]
+id: CHEBI:35530 ! beta-adrenergic antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of PR:000022207 ! choline dehydrogenase
+
+[Term]
+id: CHEBI:35608 ! protein tyrosine phosphatase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004725 ! protein tyrosine phosphatase activity
+
+[Term]
+id: CHEBI:35634 ! xanthine oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004855 ! xanthine oxidase activity
+
+[Term]
+id: CHEBI:35660 ! HIV protease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008233 ! peptidase activity
+
+[Term]
+id: CHEBI:35856 ! lipoxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016165 ! lipoxygenase activity
+
+[Term]
+id: CHEBI:36044 ! antiviral drug
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of MP:0001799 ! Viral
+
+[Term]
+id: CHEBI:36047 ! antibacterial drug
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of MP:MP_0001794 ! Bacterial
+
+[Term]
+id: CHEBI:37153 ! protein serine/threonine phosphatase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016791 ! phosphatase activity
+
+[Term]
+id: CHEBI:37416 ! RNA polymerase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0034062 ! RNA polymerase activity
+
+[Term]
+id: CHEBI:37670 ! protease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008233 ! peptidase activity
+
+[Term]
+id: CHEBI:37699 ! protein kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004672 ! protein kinase activity
+
+[Term]
+id: CHEBI:37700 ! protein kinase C inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004697 ! protein kinase C activity
+
+[Term]
+id: CHEBI:37733 ! cholinesterase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004104 ! cholinesterase activity
+
+[Term]
+id: CHEBI:37845 ! growth hormone
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0070186 ! growth hormone activity
+
+[Term]
+id: CHEBI:37955 ! H1-receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:37961 ! H2-receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:38070 ! anti-arrhythmia drug
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of HP:0011675 ! Arrhythmia
+
+[Term]
+id: CHEBI:38234 ! DNA polymerase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0034061 ! DNA polymerase activity
+
+[Term]
+id: CHEBI:38462 ! acetylcholinesterase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003990 ! acetylcholinesterase activity
+
+[Term]
+id: CHEBI:38496 ! electron-transport chain inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0022900 ! electron transport chain
+
+[Term]
+id: CHEBI:38497 ! respiratory-chain inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0070469 ! respiratory chain
+
+[Term]
+id: CHEBI:38498 ! mitochondrial NADH:ubiquinone reductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008137 ! NADH dehydrogenase (ubiquinone) activity
+
+[Term]
+id: CHEBI:38499 ! mitochondrial cytochrome-bc1 complex inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0005750 ! mitochondrial respiratory chain complex III
+
+[Term]
+id: CHEBI:38500 ! mitochondrial cytochrome-c oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004129 ! cytochrome-c oxidase activity
+
+[Term]
+id: CHEBI:38501 ! cytochrome-c oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004129 ! cytochrome-c oxidase activity
+
+[Term]
+id: CHEBI:38502 ! cytochrome-bc1 complex inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0045275 ! respiratory chain complex III
+
+[Term]
+id: CHEBI:38503 ! NADH:ubiquinone reductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008137 ! NADH dehydrogenase (ubiquinone) activity
+
+[Term]
+id: CHEBI:38632 ! membrane transport modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0055085 ! transmembrane transport
+
+[Term]
+id: CHEBI:38637 ! tyrosine kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016301 ! kinase activity
+
+[Term]
+id: CHEBI:38807 ! calcium channel agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0005262 ! calcium channel activity
+
+[Term]
+id: CHEBI:38808 ! calcium channel modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0005262 ! calcium channel activity
+
+[Term]
+id: CHEBI:38809 ! ryanodine receptor modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:38828 ! nonionic surfactant
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: _of GO:0019214 ! surfactant activity
+
+[Term]
+id: CHEBI:38999 ! GABA-gated chloride channel antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0005254 ! chloride channel activity
+
+[Term]
+id: CHEBI:39000 ! sodium channel modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0005272 ! sodium channel activity
+
+[Term]
+id: CHEBI:39456 ! antiglaucoma drug
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of HP:0000501 ! Glaucoma
+
+[Term]
+id: CHEBI:48001 ! protein synthesis inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0006412 ! translation
+
+[Term]
+id: CHEBI:48353 ! serine proteinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008233 ! peptidase activity
+
+[Term]
+id: CHEBI:48406 ! catechol O-methyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008168 ! methyltransferase activity
+
+[Term]
+id: CHEBI:48422 ! angiogenesis inhibitor
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of GO:0001525 ! angiogenesis
+
+[Term]
+id: CHEBI:48540 ! beta-adrenergic drug
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: drug_of PR:000022207 ! choline dehydrogenase
+
+[Term]
+id: CHEBI:48550 ! aldose reductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004032 ! alditol:NADP+ 1-oxidoreductase activity
+
+[Term]
+id: CHEBI:49020 ! hormone antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:49200 ! proton pump inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0022804 ! active transmembrane transporter activity
+
+[Term]
+id: CHEBI:49205 ! CETP inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of PR:000005373 ! cholesteryl ester transfer protein
+
+[Term]
+id: CHEBI:50112 ! sex hormone
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:50137 ! mu-opioid receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:50184 ! ion transport inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0006811 ! ion transport
+
+[Term]
+id: CHEBI:50185 ! fatty acid synthesis inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0006633 ! fatty acid biosynthetic process
+
+[Term]
+id: CHEBI:50380 ! 4-hydroxyphenyl-pyruvate dioxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0051213 ! dioxygenase activity
+
+[Term]
+id: CHEBI_15361 ! MGREP
+intersection_of: [name: pyruvate, concept: {[localConceptId: 39343/CHEBI:CHEBI_15361, conceptId: 25107766, localOntologyId: 39343, isTopLevel: 0, fullId: http://www.loria.fr/~coulet/ontology/sopharm/version2.1/chebi.owl#CHEBI_15361, preferredName: pyruvate, definitions: [], synonyms: [], semanticTypes: [[id: 3, semanticType: T999, description: NCBO BioPortal concept]]]}, isPreferred: true] ! 
+intersection_of: [T999, NCBO BioPortal concept]_of GO:0051213 ! dioxygenase activity
+
+[Term]
+id: CHEBI:50382 ! glucosylceramide synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008120 ! ceramide glucosyltransferase activity
+
+[Term]
+id: CHEBI:50390 ! NAD(P)H:quinone oxidoreductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016491 ! oxidoreductase activity
+
+[Term]
+id: CHEBI:50427 ! platelet aggregation inhibitor
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of GO:0070527 ! platelet aggregation
+
+[Term]
+id: CHEBI:50433 ! platelet glycoprotein-IIb/IIIa receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:50445 ! adenosine deaminase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004000 ! adenosine deaminase activity
+
+[Term]
+id: CHEBI:50469 ! phospholipase A2 inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004623 ! phospholipase A2 activity
+
+[Term]
+id: CHEBI:50502 ! dihydropteroate synthetase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004156 ! dihydropteroate synthase activity
+
+[Term]
+id: CHEBI:50510 ! potassium channel modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0005267 ! potassium channel activity
+
+[Term]
+id: CHEBI:50627 ! alpha-amylase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004556 ! alpha-amylase activity
+
+[Term]
+id: CHEBI:50628 ! alpha-glucoside hydrolase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016787 ! hydrolase activity
+
+[Term]
+id: CHEBI:50635 ! urease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0009039 ! urease activity
+
+[Term]
+id: CHEBI:50643 ! farnesyl pyrophosphate synthetase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004337 ! geranyltranstransferase activity
+
+[Term]
+id: CHEBI:50664 ! matrix metalloproteinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008237 ! metallopeptidase activity
+
+[Term]
+id: CHEBI:50683 ! dihydrofolate reductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004146 ! dihydrofolate reductase activity
+
+[Term]
+id: CHEBI:50739 ! estrogen receptor modulator
+intersection_of: CHEBI:33232 ! application
+intersection_of: modulator_of GO:0030284 ! estrogen receptor activity
+
+[Term]
+id: CHEBI:50741 ! retinoic acid receptor alpha/beta agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of PR:000013736 ! retinoic acid receptor alpha
+
+[Term]
+id: CHEBI:50750 ! topoisomerase II inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003918 ! DNA topoisomerase (ATP-hydrolyzing) activity
+
+[Term]
+id: CHEBI:50790 ! aromatase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0070330 ! aromatase activity
+
+[Term]
+id: CHEBI:50792 ! estrogen receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0030284 ! estrogen receptor activity
+
+[Term]
+id: CHEBI:50864 ! insulin-sensitizing drug
+intersection_of: CHEBI:33232 ! application
+intersection_of: drug_of GO:GO_0016088 ! insulin
+
+[Term]
+id: CHEBI_5931 ! 
+intersection_of: [T999, NCBO BioPortal concept] ! MGREP
+intersection_of: inhibitor_of GO:0016088 ! insulin
+
+[Term]
+id: CHEBI:50911 ! neurotoxin
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0019847 ! neurotoxin activity
+
+[Term]
+id: CHEBI:50914 ! phosphatidylinositol-3-OH kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016301 ! kinase activity
+
+[Term]
+id: CHEBI:50916 ! lipid kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0001727 ! lipid kinase activity
+
+[Term]
+id: CHEBI:50925 ! serine/threonine kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016301 ! kinase activity
+
+[Term]
+id: CHEBI:50926 ! angiogenesis modulating agent
+intersection_of: CHEBI:33232 ! application
+intersection_of: agent_of GO:0001525 ! angiogenesis
+
+[Term]
+id: CHEBI:50927 ! angiogenesis inducing agent
+intersection_of: CHEBI:33232 ! application
+intersection_of: agent_of GO:0001525 ! angiogenesis
+
+[Term]
+id: CHEBI:50949 ! serotonin uptake inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0051610 ! serotonin uptake
+
+[Term]
+id: CHEBI:51039 ! dopamine uptake inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0051583 ! dopamine uptake
+
+[Term]
+id: CHEBI:51060 ! hormone agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:51061 ! hormone receptor modulator
+intersection_of: CHEBI:33232 ! application
+intersection_of: modulator_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:51451 ! endothelin receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004962 ! endothelin receptor activity
+
+[Term]
+id: CHEBI:51452 ! endothelin A receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:52303 ! sterol methyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008168 ! methyltransferase activity
+
+[Term]
+id: CHEBI:52424 ! glycoside hydrolase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016787 ! hydrolase activity
+
+[Term]
+id: CHEBI:52425 ! neuraminidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004308 ! exo-alpha-sialidase activity
+
+[Term]
+id: CHEBI:52629 ! HIV-1 RNase H inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004523 ! ribonuclease H activity
+
+[Term]
+id: CHEBI:52726 ! proteasome inhibitor
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of GO:0000502 ! proteasome complex
+
+[Term]
+id: CHEBI:53121 ! adenosine A2A receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:53142 ! P2Y2 receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:53353 ! GHB receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI_16724 ! 4-hydroxybutanoate /// Xyrem /// gamma-Hydroxybutyric acid /// gamma-hydroxybutyrate /// Gamma hydroxybutyrate /// 4-hydroxybutyrate /// GBH /// 4-hydroxybutanoic acid /// Sodium Oxybate /// Gamma-OH
+intersection_of: [T999, NCBO BioPortal concept] ! MGREP
+intersection_of: inhibitor_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:53431 ! chain carrier
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: _of GO:0022804 ! active transmembrane transporter activity
+
+[Term]
+id: CHEBI:53659 ! diamine oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0052597 ! diamine oxidase activity
+
+[Term]
+id: CHEBI:53746 ! inosine monophosphate dehydrogenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003938 ! IMP dehydrogenase activity
+
+[Term]
+id: CHEBI:53756 ! HIV-1 reverse transcriptase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003964 ! RNA-directed DNA polymerase activity
+
+[Term]
+id: CHEBI:55322 ! mu-opioid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:55350 ! neurokinin-1 receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:55351 ! substance P receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0016496 ! substance P receptor activity
+
+[Term]
+id: CHEBI:59105 ! acid--amino-acid ligase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016874 ! ligase activity
+
+[Term]
+id: CHEBI:59107 ! metalloendopeptidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004222 ! metalloendopeptidase activity
+
+[Term]
+id: CHEBI:59229 ! GnRH antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0005183 ! gonadotropin hormone-releasing hormone activity
+
+[Term]
+id: CHEBI:5924 ! serine endopeptidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004175 ! endopeptidase activity
+
+[Term]
+id: CHEBI:59282 ! kappa-opioid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:59283 ! delta-opioid receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:59285 ! squalene monooxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004506 ! squalene monooxygenase activity
+
+[Term]
+id: CHEBI:59321 ! aromatic-L-amino-acid decarboxylase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016831 ! carboxy-lyase activity
+
+[Term]
+id: CHEBI:59499 ! dipeptidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016805 ! dipeptidase activity
+
+[Term]
+id: CHEBI:59517 ! DNA synthesis inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:GO_0006260 ! DNA replication
+
+[Term]
+id: CHEBI:59647 ! serine palmitoyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016409 ! palmitoyltransferase activity
+
+[Term]
+id: CHEBI:59672 ! chitin synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004100 ! chitin synthase activity
+
+[Term]
+id: CHEBI:59680 ! vasopressin  receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:59727 ! vasopressin receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0005000 ! vasopressin receptor activity
+
+[Term]
+id: CHEBI:59897 ! reverse transcriptase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003964 ! RNA-directed DNA polymerase activity
+
+[Term]
+id: CHEBI:59997 ! tyrosinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004503 ! monophenol monooxygenase activity
+
+[Term]
+id: CHEBI:60186 ! Ca(2+)-transporting ATPase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016887 ! ATPase activity
+
+[Term]
+id: CHEBI:60258 ! peptidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008233 ! peptidase activity
+
+[Term]
+id: CHEBI:60280 ! glutaminase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004359 ! glutaminase activity
+
+[Term]
+id: CHEBI:60311 ! thyroid hormone
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:60605 ! opioid receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:60606 ! opioid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:60643 ! N-methyl-D-aspartate receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:60649 ! glucagon receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004967 ! glucagon receptor activity
+
+[Term]
+id: CHEBI:60688 ! tryptophan synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004834 ! tryptophan synthase activity
+
+[Term]
+id: CHEBI:60797 ! NMDA receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:60901 ! riboflavin synthetase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004746 ! riboflavin synthase activity
+
+[Term]
+id: CHEBI:61016 ! angiotensin receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0001595 ! angiotensin receptor activity
+
+[Term]
+id: CHEBI:61115 ! histone deacetylase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004407 ! histone deacetylase activity
+
+[Term]
+id: CHEBI:61908 ! nitric oxide synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004517 ! nitric-oxide synthase activity
+
+[Term]
+id: CHEBI:61950 ! microtubule-stabilising agent
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agent_of GO:0005874 ! microtubule
+
+[Term]
+id: CHEBI:61951 ! microtubule-destabilising agent
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agent_of GO:0005874 ! microtubule
+
+[Term]
+id: CHEBI:61966 ! metabotropic glutamate receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0008066 ! glutamate receptor activity
+
+[Term]
+id: CHEBI:62089 ! glutamate synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0015930 ! glutamate synthase activity
+
+[Term]
+id: CHEBI:62434 ! anaplastic lymphoma kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016301 ! kinase activity
+
+[Term]
+id: CHEBI:62530 ! sphingosine N-acyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008415 ! acyltransferase activity
+
+[Term]
+id: CHEBI:62608 ! aconitase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003994 ! aconitate hydratase activity
+
+[Term]
+id: CHEBI:62609 ! phosphonopyruvate hydrolase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0033978 ! phosphonopyruvate hydrolase activity
+
+[Term]
+id: CHEBI:62670 ! phosphoprotein phosphatase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004721 ! phosphoprotein phosphatase activity
+
+[Term]
+id: CHEBI:62754 ! glycine receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:62871 ! phenylalanine ammonia-lyase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016829 ! lyase activity
+
+[Term]
+id: CHEBI:62873 ! odorant receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004984 ! olfactory receptor activity
+
+[Term]
+id: CHEBI:62915 ! sialyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008373 ! sialyltransferase activity
+
+[Term]
+id: CHEBI:62966 ! cytochrome c oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004129 ! cytochrome-c oxidase activity
+
+[Term]
+id: CHEBI:63090 ! purine nucleoside phosphorylase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004731 ! purine-nucleoside phosphorylase activity
+
+[Term]
+id: CHEBI:63114 ! sphingosine-1-phosphate receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:63146 ! insulin release inhibitor
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: inhibitor_of GO:GO_0016088 ! insulin
+
+[Term]
+id: CHEBI:63156 ! alcohol oxidase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0047639 ! alcohol oxidase activity
+
+[Term]
+id: CHEBI:63172 ! S1P receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0038036 ! sphingosine-1-phosphate receptor activity
+
+[Term]
+id: CHEBI:63173 ! T-cell proliferation inhibitor
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: inhibitor_of GO:0042098 ! T cell proliferation
+
+[Term]
+id: CHEBI:63330 ! sodium-dependent Pi-transporter inhibitor
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: inhibitor_of GO:0005215 ! transporter activity
+
+[Term]
+id: CHEBI_26708 ! MGREP
+intersection_of: [name: sodium, concept: {[localConceptId: 39343/CHEBI:CHEBI_26708, conceptId: 25114363, localOntologyId: 39343, isTopLevel: 0, fullId: http://www.loria.fr/~coulet/ontology/sopharm/version2.1/chebi.owl#CHEBI_26708, preferredName: sodium, definitions: [], synonyms: [], semanticTypes: [[id: 3, semanticType: T999, description: NCBO BioPortal concept]]]}, isPreferred: true] ! 
+intersection_of: [T999, NCBO BioPortal concept]_of GO:0005215 ! transporter activity
+
+[Term]
+id: CHEBI:63332 ! alkaline phosphatase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004035 ! alkaline phosphatase activity
+
+[Term]
+id: CHEBI:63457 ! fibroblast growth factor receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0005007 ! fibroblast growth factor receptor activity
+
+[Term]
+id: CHEBI:63510 ! Na(+)/K(+)-transporting ATPase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016887 ! ATPase activity
+
+[Term]
+id: CHEBI:63533 ! gonadotropin releasing hormone agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0005179 ! hormone activity
+
+[Term]
+id: CHEBI:63562 ! glucocorticoid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004883 ! glucocorticoid receptor activity
+
+[Term]
+id: CHEBI:63673 ! chemokine receptor 5 antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of PR:000001128 ! chemokine receptor
+
+[Term]
+id: CHEBI:63674 ! 4-aminobutyrate transaminase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0003867 ! 4-aminobutyrate transaminase activity
+
+[Term]
+id: CHEBI:63720 ! thymidylate synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004799 ! thymidylate synthase activity
+
+[Term]
+id: CHEBI:63794 ! retinoid X receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:63932 ! tyrosine 3-monooxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:GO_0004497 ! monooxygenase activity
+
+[Term]
+id: CHEBI:63936 ! alpha1B-adrenoceptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004935 ! adrenoceptor activity
+
+[Term]
+id: CHEBI:63951 ! estrogen receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0030284 ! estrogen receptor activity
+
+[Term]
+id: CHEBI:63957 ! adenosine A1 receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:63958 ! cellulose synthesis inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0030244 ! cellulose biosynthetic process
+
+[Term]
+id: CHEBI:63962 ! Hsp90 inhibitor
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: inhibitor_of PR:000025350 ! HSPC protein
+
+[Term]
+id: CHEBI:63963 ! metabotropic glutamate receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0008066 ! glutamate receptor activity
+
+[Term]
+id: CHEBI:64018 ! protein kinase C agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004697 ! protein kinase C activity
+
+[Term]
+id: CHEBI:64033 ! arachidonoylethanolamide amidohydrolase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004040 ! amidase activity
+
+[Term]
+id: CHEBI:64054 ! delta-opioid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004985 ! opioid receptor activity
+
+[Term]
+id: CHEBI:64102 ! AMPA receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004971 ! alpha-amino-3-hydroxy-5-methyl-4-isoxazole propionate selective glutamate receptor activity
+
+[Term]
+id: CHEBI:64106 ! protein kinase agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004672 ! protein kinase activity
+
+[Term]
+id: CHEBI:64133 ! protein farnesyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004660 ! protein farnesyltransferase activity
+
+[Term]
+id: CHEBI:64152 ! cysteine protease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008234 ! cysteine-type peptidase activity
+
+[Term]
+id: CHEBI:64154 ! H3-receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:64155 ! H4-receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:64176 ! H3-receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:64338 ! K-ATP channel agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0015267 ! channel activity
+
+[Term]
+id: CHEBI:64371 ! neurotransmitter transporter modulator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: modulator_of GO:0005326 ! neurotransmitter transporter activity
+
+[Term]
+id: CHEBI:64406 ! cathepsin K inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004216 ! cathepsin K activity
+
+[Term]
+id: CHEBI:64411 ! geranylgeranyl diphosphate synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of PR:000007961 ! geranylgeranyl pyrophosphate synthetase
+
+[Term]
+id: CHEBI:64416 ! arogenate dehydrogenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0047794 ! cyclohexadienyl dehydrogenase activity
+
+[Term]
+id: CHEBI:64570 ! serine hydroxymethyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004372 ! glycine hydroxymethyltransferase activity
+
+[Term]
+id: CHEBI:64571 ! NMDA receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:64584 ! uremic toxin
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0015070 ! toxin activity
+
+[Term]
+id: CHEBI:64589 ! glycine receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:64670 ! thioredoxin reductase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of PR:000024130 ! thioredoxin reductase
+
+[Term]
+id: CHEBI:64696 ! acyl-CoA:cholesterol acyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008415 ! acyltransferase activity
+
+[Term]
+id: CHEBI:64697 ! acyl-CoA:cholesterol acyltransferase 2 inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of PR:000015390 ! sterol O-acyltransferase 2
+
+[Term]
+id: CHEBI:64763 ! phosphatidylinositol-specific phospholipase C inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004629 ! phospholipase C activity
+
+[Term]
+id: CHEBI:64919 ! diacylglycerol O-acyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008415 ! acyltransferase activity
+
+[Term]
+id: CHEBI:64920 ! DNA ligase (ATP) inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of PR:000023089 ! DNA ligase
+
+[Term]
+id: CHEBI:64922 ! leukocyte elastase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0042708 ! elastase activity
+
+[Term]
+id: CHEBI:64924 ! hepatitis C protease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008233 ! peptidase activity
+
+[Term]
+id: CHEBI:64926 ! serine protease inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008236 ! serine-type peptidase activity
+
+[Term]
+id: CHEBI:64932 ! cathepsin B inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004213 ! cathepsin B activity
+
+[Term]
+id: CHEBI:64933 ! melanin synthesis inhibitor
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of GO:0042438 ! melanin biosynthetic process
+
+[Term]
+id: CHEBI:64943 ! chymotrypsin inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004263 ! chymotrypsin activity
+
+[Term]
+id: CHEBI:64955 ! heparanase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0030305 ! heparanase activity
+
+[Term]
+id: CHEBI:64957 ! chymase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0030271 ! chymase activity
+
+[Term]
+id: CHEBI:64964 ! arachidonate 5-lipoxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016165 ! lipoxygenase activity
+
+[Term]
+id: CHEBI:64995 ! arachidonate 12-lipoxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016165 ! lipoxygenase activity
+
+[Term]
+id: CHEBI:64996 ! arachidonate 15-lipoxygenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0016165 ! lipoxygenase activity
+
+[Term]
+id: CHEBI:65001 ! triacylglycerol lipase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004806 ! triglyceride lipase activity
+
+[Term]
+id: CHEBI:65053 ! arginine decarboxylase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008792 ! arginine decarboxylase activity
+
+[Term]
+id: CHEBI:65057 ! adenosine A1 receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:GO_0004872 ! receptor activity
+
+[Term]
+id: CHEBI:65064 ! cyclopropane fatty acid synthase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008825 ! cyclopropane-fatty-acyl-phospholipid synthase activity
+
+[Term]
+id: CHEBI:65065 ! DNA adenine methyltransferase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0008168 ! methyltransferase activity
+
+[Term]
+id: CHEBI:65207 ! vascular endothelial growth factor receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0005021 ! vascular endothelial growth factor receptor activity
+
+[Term]
+id: CHEBI:65232 ! thrombin inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:GO_0003809 ! thrombin activity
+
+[Term]
+id: CHEBI:66894 ! erythropeotin receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:66900 ! prostaglandin receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004955 ! prostaglandin receptor activity
+
+[Term]
+id: CHEBI:66908 ! SMO receptor antagonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: antagonist_of GO:0004872 ! receptor activity
+
+[Term]
+id: CHEBI:66921 ! Janus kinase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0004718 ! Janus kinase activity
+
+[Term]
+id: CHEBI:66956 ! antidyskinesia agent
+intersection_of: CHEBI:33232 ! application
+intersection_of: inhibitor_of HP:0100660 ! Dyskinesia
+
+[Term]
+id: CHEBI:67072 ! cannabinoid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0004949 ! cannabinoid receptor activity
+
+[Term]
+id: CHEBI:67114 ! ryanodine receptor activator
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: _of GO:0030546 ! receptor activator activity
+
+[Term]
+id: CHEBI:67189 ! microbial collagenase inhibitor
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: inhibitor_of GO:0051405 ! microbial collagenase activity
+
+[Term]
+id: CHEBI:67195 ! gap junctional intercellular communication inhibitor
+intersection_of: CHEBI:51086 ! chemical role
+intersection_of: inhibitor_of PR:000013743 ! ras GTPase-activating protein 1
+
+[Term]
+id: CHEBI:67198 ! retinoic acid receptor agonist
+intersection_of: CHEBI:24432 ! biological role
+intersection_of: agonist_of GO:0003708 ! retinoic acid receptor activity
+
