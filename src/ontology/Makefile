@@ -24,6 +24,22 @@ all_imports: imports/go_import.owl imports/pato_import.owl
 imports/%_import.owl: chiro-edit.owl
 	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
+chebi.owl:
+	wget $(OBO)/chebi.owl
+
+mp.owl:
+	wget $(OBO)/mp.owl
+
+go.owl:
+	wget $(OBO)/go.owl
+
+imports/chebi_import.owl: chebi.owl
+	owltools $< --extract-module -d CHEBI:50906 --set-ontology-id $(OBO)/chiro/$@ -o $@
+
+imports/%.obo: imports/%.owl
+	owltools $< -o -f obo $@
+
+
 # ----------------------------------------
 # Diffs
 # ----------------------------------------
@@ -36,3 +52,14 @@ diff: chiro.obo
 minidiff: chiro.obo
 	cd diffs  && touch chiro-diff && rm chiro-*diff* && make TGTS='html txt' SRC=../chiro.obo && mail -s chiro-diffs RELEASE-MANAGER@FOO.BAR < chiro-combined-diff.txt
 
+# ----------------------------------------
+# TM
+# ----------------------------------------
+role-list.txt:
+	blip-findall  -r chebi "class(R,role),subclass(Z,R),subclassRT(ID,Z)" -select ID-Z -label -no_pred | sort -u > $@
+
+role-list-mined.txt: role-list.txt
+	./util/c-runner.pl $< > $@
+
+role-xp.obo: role-list-mined.txt
+	./util/parse.pl $< > $@
