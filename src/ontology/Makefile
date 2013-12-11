@@ -22,7 +22,7 @@ chiro.obo: chiro-edit.owl
 all_imports: imports/go_import.owl imports/pato_import.owl
 
 imports/%_import.owl: chiro-edit.owl
-	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+	owltools --use-catalog $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
 chebi.owl:
 	wget $(OBO)/chebi.owl
@@ -30,8 +30,18 @@ chebi.owl:
 mp.owl:
 	wget $(OBO)/mp.owl
 
+hp.owl:
+	wget $(OBO)/hp.owl
+
 go.owl:
 	wget $(OBO)/go.owl
+
+pr.owl:
+	wget $(OBO)/pr.owl
+
+ncbitaxon.owl:
+	wget $(OBO)/ncbitaxon.owl
+
 
 imports/chebi_import.owl: chebi.owl
 	owltools $< --extract-module -d CHEBI:50906 --set-ontology-id $(OBO)/chiro/$@ -o $@
@@ -61,5 +71,8 @@ role-list.txt:
 role-list-mined.txt: role-list.txt
 	./util/c-runner.pl $< > $@
 
-role-xp.obo: role-list-mined.txt
+role-xp-unvetted.obo: role-list-mined.txt
 	./util/parse.pl $< > $@
+
+chiro-xp.owl: role-xp.obo
+	owltools $< -o -f ofn $@

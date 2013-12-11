@@ -1,6 +1,12 @@
+## CHEBI Integrated Role Ontology
 
-Welcome to chiro
+An axiomatization of the CHEBI role branch that connects roles (and
+thus chemicals) to:
 
-For more details see:
+ * GO
+ * PRO
+ * NCBITaxon
+ * HP
+ * ...
 
-See http://code.google.com/p/chiro-ontology/
+See: src/ontology/chiro-edit.owl

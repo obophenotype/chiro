@@ -1,7 +1,13 @@
 
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro.owl" uri="chiro-edit.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/mp.owl" uri="imports/mp.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go.owl" uri="imports/go.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/mp.owl" uri="mp.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go.owl" uri="go.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/chiro-xp.owl" uri="chiro-xp.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/go_import.owl" uri="go.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl" uri="imports/mp_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl" uri="imports/hp_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/pr_import.owl" uri="imports/pr_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
 </catalog>
