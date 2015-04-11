@@ -26,6 +26,8 @@ structures to processes.
  * 'anti-inflammator drug' = drug and inhibitor_of some go:'inflammatory response'
  * 'estrogen receptor activity' = drug and inhibitor_of some go:'estrogen receptor activity'
 
+See screenshots below for more examples
+
 ## Uses
 
 This provides connections between CHEBI and other OBO ontologies.
@@ -61,3 +63,10 @@ This could in turn be collapsed to give axioms directly on the chemical structur
 For now it's necessary to view in Protege
 
  * src/ontology/chiro-edit.owl
+
+### Screenshots
+
+Taken from Protege
+
+![image](images/protege1.png)
+![image](images/protege2.png)
