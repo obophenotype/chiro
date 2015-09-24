@@ -9,5 +9,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl" uri="imports/mp_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl" uri="imports/hp_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/pr_import.owl" uri="imports/pr_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl" uri="imports/envo_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chiro/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
 </catalog>

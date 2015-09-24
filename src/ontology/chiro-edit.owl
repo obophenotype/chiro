@@ -10,6 +10,7 @@ Import(<http://purl.obolibrary.org/obo/chiro/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_22180> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0003984>) <http://purl.obolibrary.org/obo/CHEBI_24432>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_22587> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_10239>) <http://purl.obolibrary.org/obo/CHEBI_24432>))

@@ -23,7 +23,7 @@ chiro-edit.obo: chiro-edit.owl
 # Imports
 # ----------------------------------------
 IMPORTS = go pato chebi mp
-all_imports: imports/go_import.owl imports/pato_import.owl
+all_imports: imports/go_import.owl imports/pato_import.owl imports/envo_import.owl
 
 imports/%_import.owl: chiro-edit.owl
 	owltools --use-catalog $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
