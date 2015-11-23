@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/cmungall/chiro.svg?branch=master)](https://travis-ci.org/cmungall/chiro)
+[![DOI](https://zenodo.org/badge/13996/cmungall/chiro.svg)](https://zenodo.org/badge/latestdoi/13996/cmungall/chiro)
+
 ## CHEBI Integrated Role Ontology
 
 An axiomatization of the CHEBI role branch that connects roles (and

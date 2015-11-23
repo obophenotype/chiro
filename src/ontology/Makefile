@@ -10,6 +10,7 @@ OBO = http://purl.obolibrary.org/obo
 initial-build: chiro.obo
 build: chiro.obo minidiff
 release: chiro.obo diff
+test: chiro.obo
 
 # all release files are derived from the editors version.
 # we use the default Oort setup (hermit as reasoner)
