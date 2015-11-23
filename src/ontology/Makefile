@@ -9,7 +9,8 @@ OBO = http://purl.obolibrary.org/obo
 
 initial-build: chiro.obo
 build: chiro.obo minidiff
-release: chiro.obo diff
+#release: chiro.obo diff
+release: chiro.obo copy_release_files
 test: chiro.obo
 
 # all release files are derived from the editors version.
@@ -20,6 +21,9 @@ chiro.obo: chiro-edit.owl
 chiro-edit.obo: chiro-edit.owl
 	owltools --use-catalog $< imports/*.owl -o -f obo --no-check $@
 
+copy_release_files: chiro.obo chiro.owl
+	cp $^ ../..
+
 # ----------------------------------------
 # Imports
 # ----------------------------------------
@@ -27,7 +31,7 @@ IMPORTS = go pato chebi mp
 all_imports: imports/go_import.owl imports/pato_import.owl imports/envo_import.owl
 
 imports/%_import.owl: chiro-edit.owl
-	owltools --use-catalog $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+	owltools --use-catalog $< $(OBO)/$*.owl --reasoner elk --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
 chebi.owl:
 	wget $(OBO)/chebi.owl
