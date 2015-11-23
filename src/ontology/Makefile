@@ -21,8 +21,8 @@ chiro.obo: chiro-edit.owl
 chiro-edit.obo: chiro-edit.owl
 	owltools --use-catalog $< imports/*.owl -o -f obo --no-check $@
 
-copy_release_files: chiro.obo chiro.owl
-	cp $^ ../.. && cp -pr imports ../..
+copy_release_files: chiro.obo chiro.owl catalog-v001.xml
+	cp $^ ../.. && cp  imports/*{obo,owl} ../../imports
 
 # ----------------------------------------
 # Imports
