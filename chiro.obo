@@ -1,0 +1,1323 @@
+format-version: 1.2
+data-version: releases/2015-11-23
+import: http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl
+import: http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl
+import: http://purl.obolibrary.org/obo/chiro/imports/go_import.owl
+import: http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl
+import: http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl
+ontology: chiro
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#activator_of> <http://purl.obolibrary.org/obo/GO_0042311>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50905> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#destabilizer_of> <http://purl.obolibrary.org/obo/GO_0009790>))\n)
+
+[Term]
+id: CHEBI:22180
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003984
+relationship: inhibitor_of GO:0003984
+
+[Term]
+id: CHEBI:22587
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of NCBITaxon:10239
+relationship: inhibitor_of NCBITaxon:10239
+
+[Term]
+id: CHEBI:23018
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004089
+relationship: inhibitor_of GO:0004089
+
+[Term]
+id: CHEBI:23100
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0006031
+relationship: inhibitor_of GO:0006031
+
+[Term]
+id: CHEBI:23529
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0009512
+relationship: inhibitor_of GO:0009512
+
+[Term]
+id: CHEBI:23924
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003824
+relationship: inhibitor_of GO:0003824
+
+[Term]
+id: CHEBI:24319
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004356
+relationship: inhibitor_of GO:0004356
+
+[Term]
+id: CHEBI:24621
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0005179
+relationship: activator_of GO:0005179
+
+[Term]
+id: CHEBI:25355
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0005746
+relationship: inhibitor_of GO:0005746
+
+[Term]
+id: CHEBI:26013
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0005186
+relationship: activator_of GO:0005186
+
+[Term]
+id: CHEBI:26087
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0009767
+relationship: inhibitor_of GO:0009767
+
+[Term]
+id: CHEBI:26088
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0009522
+relationship: inhibitor_of GO:0009522
+
+[Term]
+id: CHEBI:26089
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0009523
+relationship: inhibitor_of GO:0009523
+
+[Term]
+id: CHEBI:33282
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of NCBITaxon:2
+relationship: inhibitor_of NCBITaxon:2
+
+[Term]
+id: CHEBI:35472
+intersection_of: CHEBI:23888
+intersection_of: inhibitor_of GO:0006954
+relationship: inhibitor_of GO:0006954
+
+[Term]
+id: CHEBI:35493
+is_a: CHEBI:35472
+intersection_of: CHEBI:23888
+intersection_of: inhibitor_of GO:0001660
+relationship: inhibitor_of GO:0001660
+
+[Term]
+id: CHEBI:35608
+is_a: CHEBI:62670
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004725
+relationship: inhibitor_of GO:0004725
+
+[Term]
+id: CHEBI:35620
+
+[Term]
+id: CHEBI:35634
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004855
+relationship: inhibitor_of GO:0004855
+
+[Term]
+id: CHEBI:35842
+intersection_of: CHEBI:23888
+intersection_of: inhibitor_of MP:0003561
+relationship: inhibitor_of MP:0003561
+
+[Term]
+id: CHEBI:35856
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0016165
+relationship: inhibitor_of GO:0016165
+
+[Term]
+id: CHEBI:36044
+intersection_of: CHEBI:23888
+intersection_of: inhibitor_of NCBITaxon:10239
+relationship: inhibitor_of NCBITaxon:10239
+
+[Term]
+id: CHEBI:36047
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of NCBITaxon:2
+relationship: inhibitor_of NCBITaxon:2
+
+[Term]
+id: CHEBI:37153
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0016791
+relationship: inhibitor_of GO:0016791
+
+[Term]
+id: CHEBI:37416
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0034062
+relationship: inhibitor_of GO:0034062
+
+[Term]
+id: CHEBI:37670
+is_a: CHEBI:60258
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004175
+relationship: inhibitor_of GO:0004175
+
+[Term]
+id: CHEBI:37699
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004672
+relationship: inhibitor_of GO:0004672
+
+[Term]
+id: CHEBI:37700
+is_a: CHEBI:50925
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004697
+relationship: inhibitor_of GO:0004697
+
+[Term]
+id: CHEBI:37733
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004104
+relationship: inhibitor_of GO:0004104
+
+[Term]
+id: CHEBI:37845
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0048589
+relationship: activator_of GO:0048589
+
+[Term]
+id: CHEBI:37955
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of PR:000001422
+relationship: antagonist_of PR:000001422
+
+[Term]
+id: CHEBI:37961
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of PR:000001423
+relationship: antagonist_of PR:000001423
+
+[Term]
+id: CHEBI:38070
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of HP:0011675
+relationship: inhibitor_of HP:0011675
+
+[Term]
+id: CHEBI:38234
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0034061
+relationship: inhibitor_of GO:0034061
+
+[Term]
+id: CHEBI:38462
+is_a: CHEBI:37733
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003990
+relationship: inhibitor_of GO:0003990
+
+[Term]
+id: CHEBI:38496
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0022900
+relationship: inhibitor_of GO:0022900
+
+[Term]
+id: CHEBI:38497
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0070469
+relationship: inhibitor_of GO:0070469
+
+[Term]
+id: CHEBI:38498
+
+[Term]
+id: CHEBI:38499
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0005750
+relationship: inhibitor_of GO:0005750
+
+[Term]
+id: CHEBI:38500
+
+[Term]
+id: CHEBI:38501
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004129
+relationship: inhibitor_of GO:0004129
+
+[Term]
+id: CHEBI:38502
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0045275
+relationship: inhibitor_of GO:0045275
+
+[Term]
+id: CHEBI:38503
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008137
+relationship: inhibitor_of GO:0008137
+
+[Term]
+id: CHEBI:38632
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0055085
+relationship: modulator_of GO:0055085
+
+[Term]
+id: CHEBI:38637
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004713
+relationship: inhibitor_of GO:0004713
+
+[Term]
+id: CHEBI:38807
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0005262
+relationship: agonist_of GO:0005262
+
+[Term]
+id: CHEBI:38808
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0005262
+relationship: modulator_of GO:0005262
+
+[Term]
+id: CHEBI:38809
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0005219
+relationship: modulator_of GO:0005219
+
+[Term]
+id: CHEBI:38999
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0022851
+relationship: antagonist_of GO:0022851
+
+[Term]
+id: CHEBI:39000
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0005272
+relationship: modulator_of GO:0005272
+
+[Term]
+id: CHEBI:39456
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of HP:0000501
+relationship: inhibitor_of HP:0000501
+
+[Term]
+id: CHEBI:48001
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0006412
+relationship: inhibitor_of GO:0006412
+
+[Term]
+id: CHEBI:48406
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0016206
+relationship: inhibitor_of GO:0016206
+
+[Term]
+id: CHEBI:48422
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of GO:0001525
+relationship: inhibitor_of GO:0001525
+
+[Term]
+id: CHEBI:48550
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004032
+relationship: inhibitor_of GO:0004032
+
+[Term]
+id: CHEBI:49020
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0005179
+relationship: antagonist_of GO:0005179
+
+[Term]
+id: CHEBI:49200
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0022804
+relationship: inhibitor_of GO:0022804
+
+[Term]
+id: CHEBI:49205
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of PR:000005373
+relationship: inhibitor_of PR:000005373
+
+[Term]
+id: CHEBI:50112
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0022414
+relationship: activator_of GO:0022414
+
+[Term]
+id: CHEBI:50184
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0006811
+relationship: inhibitor_of GO:0006811
+
+[Term]
+id: CHEBI:50185
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0006633
+relationship: inhibitor_of GO:0006633
+
+[Term]
+id: CHEBI:50380
+is_a: CHEBI:24432
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003868
+relationship: inhibitor_of GO:0003868
+
+[Term]
+id: CHEBI:50382
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008120
+relationship: inhibitor_of GO:0008120
+
+[Term]
+id: CHEBI:50390
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003955
+relationship: inhibitor_of GO:0003955
+
+[Term]
+id: CHEBI:50427
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of GO:0070527
+relationship: inhibitor_of GO:0070527
+
+[Term]
+id: CHEBI:50445
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004000
+relationship: inhibitor_of GO:0004000
+
+[Term]
+id: CHEBI:50469
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004623
+relationship: inhibitor_of GO:0004623
+
+[Term]
+id: CHEBI:50502
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004156
+relationship: inhibitor_of GO:0004156
+
+[Term]
+id: CHEBI:50510
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0005267
+relationship: modulator_of GO:0005267
+
+[Term]
+id: CHEBI:50627
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004556
+relationship: inhibitor_of GO:0004556
+
+[Term]
+id: CHEBI:50628
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004558
+relationship: inhibitor_of GO:0004558
+
+[Term]
+id: CHEBI:50635
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0009039
+relationship: inhibitor_of GO:0009039
+
+[Term]
+id: CHEBI:50643
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004337
+relationship: inhibitor_of GO:0004337
+
+[Term]
+id: CHEBI:50664
+is_a: CHEBI:60258
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008237
+relationship: inhibitor_of GO:0008237
+
+[Term]
+id: CHEBI:50683
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004146
+relationship: inhibitor_of GO:0004146
+
+[Term]
+id: CHEBI:50739
+is_a: CHEBI:51061
+intersection_of: CHEBI:33232
+intersection_of: modulator_of GO:0030284
+relationship: modulator_of GO:0030284
+
+[Term]
+id: CHEBI:50741
+intersection_of: CHEBI:24432
+intersection_of: agonist_of PR:000013736
+relationship: agonist_of PR:000013736
+
+[Term]
+id: CHEBI:50750
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003918
+relationship: inhibitor_of GO:0003918
+
+[Term]
+id: CHEBI:50790
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0070330
+relationship: inhibitor_of GO:0070330
+
+[Term]
+id: CHEBI:50792
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0030284
+relationship: antagonist_of GO:0030284
+
+[Term]
+id: CHEBI:50864
+intersection_of: CHEBI:33232
+intersection_of: sensitizer_of GO:0016088
+relationship: sensitizer_of GO:0016088
+
+[Term]
+id: CHEBI:50905
+
+[Term]
+id: CHEBI:50914
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0035004
+relationship: inhibitor_of GO:0035004
+
+[Term]
+id: CHEBI:50916
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0001727
+relationship: inhibitor_of GO:0001727
+
+[Term]
+id: CHEBI:50925
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004674
+relationship: inhibitor_of GO:0004674
+
+[Term]
+id: CHEBI:50926
+intersection_of: CHEBI:33232
+intersection_of: modulator_of GO:0001525
+relationship: modulator_of GO:0001525
+
+[Term]
+id: CHEBI:50927
+intersection_of: CHEBI:33232
+intersection_of: inducer_of GO:0001525
+relationship: inducer_of GO:0001525
+
+[Term]
+id: CHEBI:50949
+is_a: CHEBI:50184
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0051610
+relationship: inhibitor_of GO:0051610
+
+[Term]
+id: CHEBI:51039
+is_a: CHEBI:50184
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0051583
+relationship: inhibitor_of GO:0051583
+
+[Term]
+id: CHEBI:51060
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0005179
+relationship: agonist_of GO:0005179
+
+[Term]
+id: CHEBI:51061
+intersection_of: CHEBI:33232
+intersection_of: modulator_of GO:0004872
+relationship: modulator_of GO:0004872
+
+[Term]
+id: CHEBI:51451
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004962
+relationship: antagonist_of GO:0004962
+
+[Term]
+id: CHEBI:51452
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of PR:000001221
+relationship: antagonist_of PR:000001221
+
+[Term]
+id: CHEBI:52303
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003838
+relationship: inhibitor_of GO:0003838
+
+[Term]
+id: CHEBI:52425
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004308
+relationship: inhibitor_of GO:0004308
+
+[Term]
+id: CHEBI:52629
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004523
+intersection_of: inhibitor_of NCBITaxon:11676
+relationship: inhibitor_of GO:0004523
+relationship: inhibitor_of NCBITaxon:11676
+
+[Term]
+id: CHEBI:52726
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of GO:0000502
+relationship: inhibitor_of GO:0000502
+
+[Term]
+id: CHEBI:53659
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0052597
+relationship: inhibitor_of GO:0052597
+
+[Term]
+id: CHEBI:53746
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003938
+relationship: inhibitor_of GO:0003938
+
+[Term]
+id: CHEBI:53756
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003964
+intersection_of: inhibitor_of NCBITaxon:11676
+relationship: inhibitor_of GO:0003964
+relationship: inhibitor_of NCBITaxon:11676
+
+[Term]
+id: CHEBI:55351
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of PR:000001247
+relationship: antagonist_of PR:000001247
+
+[Term]
+id: CHEBI:59105
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0016881
+relationship: inhibitor_of GO:0016881
+
+[Term]
+id: CHEBI:59107
+is_a: CHEBI:50664
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004222
+relationship: inhibitor_of GO:0004222
+
+[Term]
+id: CHEBI:59229
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0005183
+relationship: antagonist_of GO:0005183
+
+[Term]
+id: CHEBI:5924
+is_a: CHEBI:37670
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004252
+relationship: inhibitor_of GO:0004252
+
+[Term]
+id: CHEBI:59282
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004985
+intersection_of: agonist_of GO:0031851
+relationship: agonist_of GO:0004985
+relationship: agonist_of GO:0031851
+
+[Term]
+id: CHEBI:59283
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004985
+intersection_of: antagonist_of GO:0031850
+relationship: antagonist_of GO:0004985
+relationship: antagonist_of GO:0031850
+
+[Term]
+id: CHEBI:59285
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004506
+relationship: inhibitor_of GO:0004506
+
+[Term]
+id: CHEBI:59321
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004058
+relationship: inhibitor_of GO:0004058
+
+[Term]
+id: CHEBI:59499
+is_a: CHEBI:60258
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0016805
+relationship: inhibitor_of GO:0016805
+
+[Term]
+id: CHEBI:59517
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0071897
+relationship: inhibitor_of GO:0071897
+
+[Term]
+id: CHEBI:59647
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004758
+relationship: inhibitor_of GO:0004758
+
+[Term]
+id: CHEBI:59672
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004100
+relationship: inhibitor_of GO:0004100
+
+[Term]
+id: CHEBI:59680
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0005000
+relationship: antagonist_of GO:0005000
+
+[Term]
+id: CHEBI:59727
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0005000
+relationship: agonist_of GO:0005000
+
+[Term]
+id: CHEBI:59897
+is_a: CHEBI:38234
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003964
+relationship: inhibitor_of GO:0003964
+
+[Term]
+id: CHEBI:59997
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004503
+relationship: inhibitor_of GO:0004503
+
+[Term]
+id: CHEBI:60186
+is_a: CHEBI:49200
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0005388
+relationship: inhibitor_of GO:0005388
+
+[Term]
+id: CHEBI:60258
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008233
+relationship: inhibitor_of GO:0008233
+
+[Term]
+id: CHEBI:60280
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004359
+relationship: inhibitor_of GO:0004359
+
+[Term]
+id: CHEBI:60311
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0004887
+relationship: activator_of GO:0004887
+
+[Term]
+id: CHEBI:60605
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004985
+relationship: antagonist_of GO:0004985
+
+[Term]
+id: CHEBI:60606
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004985
+relationship: agonist_of GO:0004985
+
+[Term]
+id: CHEBI:60649
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004967
+relationship: antagonist_of GO:0004967
+
+[Term]
+id: CHEBI:60688
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004834
+relationship: inhibitor_of GO:0004834
+
+[Term]
+id: CHEBI:60797
+is_a: CHEBI:63963
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004972
+relationship: antagonist_of GO:0004972
+
+[Term]
+id: CHEBI:60901
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004746
+relationship: inhibitor_of GO:0004746
+
+[Term]
+id: CHEBI:61016
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0001595
+relationship: antagonist_of GO:0001595
+
+[Term]
+id: CHEBI:61115
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004407
+relationship: inhibitor_of GO:0004407
+
+[Term]
+id: CHEBI:61908
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004517
+relationship: inhibitor_of GO:0004517
+
+[Term]
+id: CHEBI:61950
+intersection_of: CHEBI:24432
+intersection_of: stabilizier_of GO:0005874
+relationship: stabilizier_of GO:0005874
+
+[Term]
+id: CHEBI:61951
+intersection_of: CHEBI:24432
+intersection_of: destabilizer_of GO:0005874
+relationship: destabilizer_of GO:0005874
+
+[Term]
+id: CHEBI:61966
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0008066
+intersection_of: agonist_of GO:0035256
+relationship: agonist_of GO:0008066
+relationship: agonist_of GO:0035256
+
+[Term]
+id: CHEBI:62089
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0015930
+relationship: inhibitor_of GO:0015930
+
+[Term]
+id: CHEBI:62434
+is_a: CHEBI:38637
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004714
+relationship: inhibitor_of GO:0004714
+
+[Term]
+id: CHEBI:62530
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0050291
+relationship: inhibitor_of GO:0050291
+
+[Term]
+id: CHEBI:62608
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003994
+relationship: inhibitor_of GO:0003994
+
+[Term]
+id: CHEBI:62609
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0033978
+relationship: inhibitor_of GO:0033978
+
+[Term]
+id: CHEBI:62670
+is_a: CHEBI:37153
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004721
+relationship: inhibitor_of GO:0004721
+
+[Term]
+id: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004872
+relationship: antagonist_of GO:0004872
+
+[Term]
+id: CHEBI:62871
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0045548
+relationship: inhibitor_of GO:0045548
+
+[Term]
+id: CHEBI:62873
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004984
+relationship: agonist_of GO:0004984
+
+[Term]
+id: CHEBI:62915
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008373
+relationship: inhibitor_of GO:0008373
+
+[Term]
+id: CHEBI:63090
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004731
+relationship: inhibitor_of GO:0004731
+
+[Term]
+id: CHEBI:63114
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0038036
+relationship: agonist_of GO:0038036
+
+[Term]
+id: CHEBI:63146
+intersection_of: CHEBI:51086
+intersection_of: inhibitor_of GO:0030073
+relationship: inhibitor_of GO:0030073
+
+[Term]
+id: CHEBI:63156
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0047639
+relationship: inhibitor_of GO:0047639
+
+[Term]
+id: CHEBI:63173
+intersection_of: CHEBI:51086
+intersection_of: inhibitor_of GO:0042098
+relationship: inhibitor_of GO:0042098
+
+[Term]
+id: CHEBI:63330
+relationship: inhibitor_of GO:0044341
+
+[Term]
+id: CHEBI:63332
+is_a: CHEBI:37153
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004035
+relationship: inhibitor_of GO:0004035
+
+[Term]
+id: CHEBI:63457
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0005007
+relationship: antagonist_of GO:0005007
+
+[Term]
+id: CHEBI:63510
+is_a: CHEBI:49200
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0005391
+relationship: inhibitor_of GO:0005391
+
+[Term]
+id: CHEBI:63533
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004968
+relationship: agonist_of GO:0004968
+
+[Term]
+id: CHEBI:63562
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004883
+relationship: agonist_of GO:0004883
+
+[Term]
+id: CHEBI:63673
+relationship: antagonist_of PR:000001128
+
+[Term]
+id: CHEBI:63674
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003867
+relationship: inhibitor_of GO:0003867
+
+[Term]
+id: CHEBI:63720
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004799
+relationship: inhibitor_of GO:0004799
+
+[Term]
+id: CHEBI:63794
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0046965
+relationship: agonist_of GO:0046965
+
+[Term]
+id: CHEBI:63932
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004511
+relationship: inhibitor_of GO:0004511
+
+[Term]
+id: CHEBI:63936
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0031692
+relationship: antagonist_of GO:0031692
+
+[Term]
+id: CHEBI:63951
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0030284
+relationship: agonist_of GO:0030284
+
+[Term]
+id: CHEBI:63958
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0030244
+relationship: inhibitor_of GO:0030244
+
+[Term]
+id: CHEBI:63962
+intersection_of: CHEBI:51086
+intersection_of: inhibitor_of PR:000025350
+relationship: inhibitor_of PR:000025350
+
+[Term]
+id: CHEBI:63963
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0008066
+relationship: antagonist_of GO:0008066
+
+[Term]
+id: CHEBI:64018
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004697
+relationship: agonist_of GO:0004697
+
+[Term]
+id: CHEBI:64054
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004985
+intersection_of: agonist_of GO:0031850
+relationship: agonist_of GO:0004985
+relationship: agonist_of GO:0031850
+
+[Term]
+id: CHEBI:64102
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004971
+relationship: agonist_of GO:0004971
+
+[Term]
+id: CHEBI:64106
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004672
+relationship: agonist_of GO:0004672
+
+[Term]
+id: CHEBI:64133
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004660
+relationship: inhibitor_of GO:0004660
+
+[Term]
+id: CHEBI:64152
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008234
+relationship: inhibitor_of GO:0008234
+
+[Term]
+id: CHEBI:64154
+intersection_of: CHEBI:24432
+intersection_of: agonist_of PR:000001564
+relationship: agonist_of PR:000001564
+
+[Term]
+id: CHEBI:64155
+intersection_of: CHEBI:24432
+intersection_of: agonist_of PR:000001565
+relationship: agonist_of PR:000001565
+
+[Term]
+id: CHEBI:64176
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of PR:000001564
+relationship: antagonist_of PR:000001564
+
+[Term]
+id: CHEBI:64338
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0008282
+relationship: agonist_of GO:0008282
+
+[Term]
+id: CHEBI:64371
+intersection_of: CHEBI:24432
+intersection_of: modulator_of GO:0005326
+relationship: modulator_of GO:0005326
+
+[Term]
+id: CHEBI:64411
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of PR:000007961
+relationship: inhibitor_of PR:000007961
+
+[Term]
+id: CHEBI:64416
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0047794
+relationship: inhibitor_of GO:0047794
+
+[Term]
+id: CHEBI:64570
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004372
+relationship: inhibitor_of GO:0004372
+
+[Term]
+id: CHEBI:64571
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004972
+relationship: agonist_of GO:0004972
+
+[Term]
+id: CHEBI:64670
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of PR:000024130
+relationship: inhibitor_of PR:000024130
+
+[Term]
+id: CHEBI:64696
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008415
+relationship: inhibitor_of GO:0008415
+
+[Term]
+id: CHEBI:64697
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of PR:000015390
+relationship: inhibitor_of PR:000015390
+
+[Term]
+id: CHEBI:64763
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004435
+relationship: inhibitor_of GO:0004435
+
+[Term]
+id: CHEBI:64919
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004144
+relationship: inhibitor_of GO:0004144
+
+[Term]
+id: CHEBI:64920
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of PR:000023089
+relationship: inhibitor_of PR:000023089
+
+[Term]
+id: CHEBI:64924
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008233
+intersection_of: inhibitor_of NCBITaxon:11103
+relationship: inhibitor_of GO:0008233
+relationship: inhibitor_of NCBITaxon:11103
+
+[Term]
+id: CHEBI:64933
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of GO:0042438
+relationship: inhibitor_of GO:0042438
+
+[Term]
+id: CHEBI:64947
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of NCBITaxon:11676
+relationship: inhibitor_of NCBITaxon:11676
+
+[Term]
+id: CHEBI:64955
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0030305
+relationship: inhibitor_of GO:0030305
+
+[Term]
+id: CHEBI:64964
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004051
+relationship: inhibitor_of GO:0004051
+
+[Term]
+id: CHEBI:64995
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004052
+relationship: inhibitor_of GO:0004052
+
+[Term]
+id: CHEBI:64996
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0050473
+relationship: inhibitor_of GO:0050473
+
+[Term]
+id: CHEBI:65001
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004806
+relationship: inhibitor_of GO:0004806
+
+[Term]
+id: CHEBI:65053
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008792
+relationship: inhibitor_of GO:0008792
+
+[Term]
+id: CHEBI:65057
+intersection_of: CHEBI:24432
+intersection_of: agonist_of PR:000001575
+relationship: agonist_of PR:000001575
+
+[Term]
+id: CHEBI:65064
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0008825
+relationship: inhibitor_of GO:0008825
+
+[Term]
+id: CHEBI:65065
+relationship: inhibitor_of GO:0009008
+
+[Term]
+id: CHEBI:65207
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0005021
+relationship: antagonist_of GO:0005021
+
+[Term]
+id: CHEBI:65232
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0003809
+relationship: inhibitor_of GO:0003809
+
+[Term]
+id: CHEBI:66894
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004900
+relationship: agonist_of GO:0004900
+
+[Term]
+id: CHEBI:66900
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004955
+relationship: agonist_of GO:0004955
+
+[Term]
+id: CHEBI:66908
+is_a: CHEBI:62754
+intersection_of: CHEBI:24432
+intersection_of: antagonist_of GO:0004872
+intersection_of: antagonist_of GO:0005119
+relationship: antagonist_of GO:0004872
+relationship: antagonist_of GO:0005119
+
+[Term]
+id: CHEBI:66921
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0004718
+relationship: inhibitor_of GO:0004718
+
+[Term]
+id: CHEBI:66956
+intersection_of: CHEBI:33232
+intersection_of: inhibitor_of HP:0100660
+relationship: inhibitor_of HP:0100660
+
+[Term]
+id: CHEBI:67072
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0004949
+relationship: agonist_of GO:0004949
+
+[Term]
+id: CHEBI:67079
+is_a: CHEBI:24432
+intersection_of: CHEBI:24432
+intersection_of: inhibitor_of GO:0006954
+relationship: inhibitor_of GO:0006954
+
+[Term]
+id: CHEBI:67114
+intersection_of: CHEBI:24432
+intersection_of: activator_of GO:0030546
+relationship: activator_of GO:0030546
+
+[Term]
+id: CHEBI:67170
+intersection_of: CHEBI:33232
+intersection_of: activator_of GO:0016525
+relationship: activator_of GO:0016525
+
+[Term]
+id: CHEBI:67195
+intersection_of: CHEBI:51086
+intersection_of: inhibitor_of GO:0005243
+relationship: inhibitor_of GO:0005243
+
+[Term]
+id: CHEBI:67198
+intersection_of: CHEBI:24432
+intersection_of: agonist_of GO:0003708
+relationship: agonist_of GO:0003708
+
+[Term]
+id: CHEBI:67268
+intersection_of: CHEBI:64947
+intersection_of: inhibitor_of GO:0008907
+relationship: inhibitor_of GO:0008907
+
+[Term]
+id: CHEBI:68494
+intersection_of: CHEBI:52206
+intersection_of: inhibitor_of GO:0006915
+relationship: inhibitor_of GO:0006915
+
+[Term]
+id: CHEBI:68495
+intersection_of: CHEBI:52206
+intersection_of: inducer_of GO:0006915
+relationship: inducer_of GO:0006915
+
+[Term]
+id: CHEBI:72571
+intersection_of: CHEBI:33232
+intersection_of: activator_of GO:0045766
+relationship: activator_of GO:0045766
+
