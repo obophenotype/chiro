@@ -6,7 +6,7 @@
 # To make a release, type 'make release' in this directory
 
 OBO = http://purl.obolibrary.org/obo
-
+USECAT = --use-catalog
 initial-build: chiro.obo
 build: chiro.obo minidiff
 #release: chiro.obo diff
@@ -30,8 +30,12 @@ copy_release_files: chiro.obo chiro.owl catalog-v001.xml
 IMPORTS = go pato chebi mp
 all_imports: imports/go_import.owl imports/pato_import.owl imports/envo_import.owl
 
-imports/%_import.owl: chiro-edit.owl
-	owltools --use-catalog $< $(OBO)/$*.owl  --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+imports/seed.tsv: chiro-edit.owl imports/seed_curated.tsv
+	owltools $(USECAT) $< --merge-support-ontologies --export-table $@.tmp && cut -f1 $@.tmp imports/seed_curated.tsv | cut -f1 -d ' ' | sort -u > $@
+
+imports/%_import.owl: chiro-edit.owl %.owl imports/seed.tsv
+	robot extract -i $*.owl -T imports/seed.tsv -m BOT -O $(OBO)/chiro/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
+#	owltools --use-catalog $< $(OBO)/$*.owl  --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
 chebi.owl:
 	wget $(OBO)/chebi.owl
@@ -47,6 +51,9 @@ go.owl:
 
 pr.owl:
 	wget $(OBO)/pr.owl
+
+uberon.owl:
+	owltools $(OBO)/uberon/basic.obo --set-ontology-id $(OBO)/uberon.owl -o -f obo $@
 
 ncbitaxon.owl:
 	wget $(OBO)/ncbitaxon.owl
