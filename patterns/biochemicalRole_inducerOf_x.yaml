@@ -1,0 +1,30 @@
+pattern_name: biochemicalRole_inducerOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biochemicalRole_inducerOf_x.yaml
+description: >- Any biochemical substance that induces a biological process.
+example: >- CHEBI_68495 'apoptosis inducer'
+
+
+classes:
+  biochemical role: CHEBI_52206
+  biological process: GO:0008150
+
+relations: 
+  inducer_of: inducer_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "%s inducing agent"
+  vars:
+   - process
+
+def:
+  text: "An biochemical agent that induces or stimulates %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'biochemical role' some ('inducer_of' some '%s')"
+  vars:
+    - process
