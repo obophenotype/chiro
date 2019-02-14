@@ -1,0 +1,30 @@
+pattern_name: application_inhibitorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/application_inhibitorOf_x.yaml
+description: >- Any substance that inhibits a biological process.
+example: >- CHEBI_48422 'angiogenesis inhibitor'
+
+
+classes:
+  application: CHEBI:33232
+  biological process: GO:0008150
+
+relations: 
+  inhibitor_of: inhibitor_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "%s inhibitor"
+  vars:
+   - process
+
+def:
+  text: "Any substance that inhibits %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'application' some ('inhibitor_of' some '%s')"
+  vars:
+    - process
