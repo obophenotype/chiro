@@ -1,5 +1,7 @@
-pattern_name: abnormal
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormal
+pattern_name: biologicalRole_inhibitorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/abiologicalRole_inhibitorOf_x.yaml
+-> Description:
+
 
 classes:
   biological role: CHEBI:24432
