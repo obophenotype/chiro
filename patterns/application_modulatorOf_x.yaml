@@ -1,1 +1,31 @@
+pattern_name: application_modulatorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/application_modulatorOf_x.yaml
+description: >- Any substance that modulates a biological process.
+example: >- CHEBI_50926 'angiogenesis modulating agent'
+
+
+classes:
+  application: CHEBI:33232
+  biological process: GO:0008150
+
+relations: 
+  modulator_of: modulator_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "%s modulating agent"
+  vars:
+   - process
+
+def:
+  text: "An agent that modulates %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'application' some ('modulator_of' some '%s')"
+  vars:
+    - process
 
