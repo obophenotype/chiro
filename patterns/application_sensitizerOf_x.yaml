@@ -1,0 +1,27 @@
+pattern_name: application_sensitizerOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/application_sensitizerOf_x.yaml
+description: >- An agent that sensitizes a target.
+example: >- CHEBI_50864 'insulin-sensitizing drug'
+classes:
+  application: CHEBI:33232
+
+relations: 
+  sensitizer_of: sensitizer_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "%s-sensitizing drug"
+  vars:
+   - thing
+
+def:
+  text: "An agent that sensitizes %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'biological role' some ('stabilizer_of' some '%s')"
+  vars:
+    - thing
