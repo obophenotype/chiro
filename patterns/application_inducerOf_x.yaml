@@ -15,7 +15,7 @@ vars:
   biological process: "'process'"
 
 name:
-  text: "%s inhibitor"
+  text: "%s inducing agent"
   vars:
    - process
 
