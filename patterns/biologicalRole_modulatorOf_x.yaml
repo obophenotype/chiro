@@ -1,1 +1,31 @@
 
+pattern_name: biologicalRole_modulatorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_modulatorOf_x.yaml
+description: >- Any compound that promotes a modulates process.
+example: >- CHEBI_38808 'calcium channel modulator'
+
+
+classes:
+  biological role: CHEBI:24432
+  biological process: GO:0008150
+
+relations: 
+  modulator_of: modulator_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "%s modulator"
+  vars:
+   - process
+
+def:
+  text: "Any compound that modulates %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'biological role' some ('modulator_of' some '%s')"
+  vars:
+    - process
