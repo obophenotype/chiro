@@ -1,0 +1,27 @@
+pattern_name: biologicalRole_destabilizerOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_destabilizerOf_x.yaml
+description: >- An substance that destabilizes a target.
+example: >- CHEBI_61951 'microtubule-destabilising agent'
+classes:
+  biological role: CHEBI:24432
+
+relations: 
+  destabilizer_of: destabilizer_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "%s-destabilizing agent"
+  vars:
+   - thing
+
+def:
+  text: "Any substance that promotes destabilization of %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'biological role' some ('destabilizer_of' some '%s')"
+  vars:
+    - thing
