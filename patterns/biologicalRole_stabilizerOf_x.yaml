@@ -1,0 +1,27 @@
+pattern_name: biologicalRole_stabilizerOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_stabilizerOf_x.yaml
+description: >- An substance that stabilizes a target.
+example: >- CHEBI_61950 'microtubule-stabilising agent'
+classes:
+  biological role: CHEBI:24432
+
+relations: 
+  stabilizer_of: stabilizer_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "%s-stabilizing agent"
+  vars:
+   - thing
+
+def:
+  text: "Any substance that promotes stabilization of %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'biological role' some ('stabilizer_of' some '%s')"
+  vars:
+    - thing
