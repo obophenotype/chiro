@@ -1,0 +1,30 @@
+pattern_name: biologicalRole_activatorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_activatorOf_x.yaml
+description: >- Any compound that promotes a biological process.
+example: >- CHEBI_37845 growth hormone
+
+
+classes:
+  biological role: CHEBI:24432
+  biological process: GO:0008150
+
+relations: 
+  activator_of: activator_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "Pro-%s agent"
+  vars:
+   - process
+
+def:
+  text: "Any compound that promotes %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'biological role' some ('activator_of' some '%s')"
+  vars:
+    - process
