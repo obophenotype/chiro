@@ -1,0 +1,30 @@
+pattern_name: application_activatorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/application_activatorOf_x.yaml
+description: >- Any compound that promotes a biological process.
+example: >- CHEBI_72571 'pro-angiogenic agent'
+
+
+classes:
+  application: CHEBI:33232
+  biological process: GO:0008150
+
+relations: 
+  activator_of: activator_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "Pro-%s agent"
+  vars:
+   - process
+
+def:
+  text: "Any compound that promotes %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'application' some ('activator_of' some '%s')"
+  vars:
+    - process
