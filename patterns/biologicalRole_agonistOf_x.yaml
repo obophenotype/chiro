@@ -1,1 +1,30 @@
 
+pattern_name: biologicalRole_agonistOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_agonistOf_x.yaml
+description: >- An agonist that selectively binds to and activates a receptor.
+example: >- CHEBI_67198 'retinoic acid receptor agonist'
+
+
+classes:
+  biological role: CHEBI:24432
+
+relations: 
+  agonist_of: agonist_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "Pro-%s agent"
+  vars:
+   - thing
+
+def:
+  text: "Any compound that promotes %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'biological role' some ('agonist_of' some '%s')"
+  vars:
+    - thing
