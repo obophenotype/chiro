@@ -1,6 +1,7 @@
 pattern_name: biologicalRole_inhibitorOf_x.yaml
 pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/abiologicalRole_inhibitorOf_x.yaml
--> Description:
+description: >- Any substance that inhibits a biological process.
+example: >- CHEBI_68494 'apoptosis inhibitor'
 
 
 classes:
