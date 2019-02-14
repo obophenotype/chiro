@@ -1,0 +1,30 @@
+pattern_name: biologicalRole_inhibitorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/abiologicalRole_inhibitorOf_x.yaml
+description: >- Any substance that inhibits a biological process.
+example: >- CHEBI_68494 'apoptosis inhibitor'
+
+
+classes:
+  biological role: CHEBI:24432
+  molecular function: GO:0003674
+
+relations: 
+  inhibitor_of: inhibitor_of
+
+vars:
+  molecular function: "'function'"
+
+name:
+  text: "%s inhibitor"
+  vars:
+   - function
+
+def:
+  text: "Any substance that inhibits %s."
+  vars:
+    - function
+
+equivalentTo:
+  text: "'biological role' some ('inhibitor_of' some '%s')"
+  vars:
+    - function
