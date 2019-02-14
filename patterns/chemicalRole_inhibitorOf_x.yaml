@@ -1,0 +1,29 @@
+pattern_name: chemicalRole_inhibitorOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/chemicalRole_inhibitorOf_x.yaml
+description: >- Any substance that inhibits a biological process, or a protein.
+example: >- CHEBI_63962 'Hsp90 inhibitor', CHEBI_67195 'gap junctional intercellular communication inhibitor'
+
+
+classes:
+  chemical role: CHEBI:51086
+
+relations: 
+  inhibitor_of: inhibitor_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "%s inhibitor"
+  vars:
+   - thing
+
+def:
+  text: "Any substance that inhibits %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'chemical role' some ('inhibitor_of' some '%s')"
+  vars:
+    - thing
