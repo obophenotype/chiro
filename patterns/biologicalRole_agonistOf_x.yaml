@@ -15,12 +15,12 @@ vars:
   thing: "owl:Thing"
 
 name:
-  text: "Pro-%s agent"
+  text: "%s agonist"
   vars:
    - thing
 
 def:
-  text: "Any compound that promotes %s."
+  text: "An agonist that selectively binds to and activates %s."
   vars:
     - thing
 
