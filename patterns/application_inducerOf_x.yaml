@@ -1,0 +1,30 @@
+pattern_name: application_inducerOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/application_inducerOf_x.yaml
+description: >- Any substance that induces a biological process.
+example: >- CHEBI_50927 'angiogenesis inducing agent'
+
+
+classes:
+  application: CHEBI:33232
+  biological process: GO:0008150
+
+relations: 
+  inducer_of: inducer_of
+
+vars:
+  biological process: "'process'"
+
+name:
+  text: "%s inducing agent"
+  vars:
+   - process
+
+def:
+  text: "An agent that induces or stimulates %s."
+  vars:
+    - process
+
+equivalentTo:
+  text: "'application' some ('inducer_of' some '%s')"
+  vars:
+    - process
