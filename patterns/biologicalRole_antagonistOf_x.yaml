@@ -1,0 +1,30 @@
+
+pattern_name: biologicalRole_antagonistOf_x.yaml
+pattern_iri: http://purl.obolibrary.org/obo/chiro/patterns/biologicalRole_antagonistOf_x.yaml
+description: >- An antagonist that blocks the activity of a biological process.
+example: >- CHEBI_61016 'angiotensin receptor antagonist'
+
+
+classes:
+  biological role: CHEBI:24432
+
+relations: 
+  antagonist_of: antagonist_of
+
+vars:
+  thing: "owl:Thing"
+
+name:
+  text: "%s antagonist"
+  vars:
+   - thing
+
+def:
+  text: "A substance that blocks %s."
+  vars:
+    - thing
+
+equivalentTo:
+  text: "'biological role' some ('antagonist_of' some '%s')"
+  vars:
+    - thing
