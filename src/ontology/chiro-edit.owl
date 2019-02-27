@@ -7,11 +7,11 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/chiro.owl>
-Import(<http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chiro/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/chiro/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl>)
+Import(<http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl>)
 
 Declaration(Class(<http://purl.obolibrary.org/GO_0003809>))
 Declaration(Class(<http://purl.obolibrary.org/GO_0003824>))
@@ -970,6 +970,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_68495> ObjectIntersectio
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CHEBI_72571> "unclear how this differs from angiogenesis inducing agent -- cjm")
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_72571> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#activator_of> <http://purl.obolibrary.org/obo/GO_0045766>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75598> (D-alanine--D-alanine ligase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75598> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0008716>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75599> (glutamate--cysteine ligase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75599> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004357>)))
 
 
 )
