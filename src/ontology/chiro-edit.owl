@@ -397,10 +397,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50510> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50627> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0004556>)))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50628> (alpha-glucoside hydrolase inhibitor)
-
-EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50628> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0004558>)))
-
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50635> (urease inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50635> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0009039>)))
@@ -692,10 +688,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_62873> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_62915> (sialyltransferase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_62915> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0008373>)))
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_62966> (cytochrome c oxidase inhibitor)
-
-EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_62966> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0004129>)))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_63090> (purine nucleoside phosphorylase inhibitor)
 
