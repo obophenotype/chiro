@@ -361,6 +361,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_49205> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#activator_of> <http://purl.obolibrary.org/obo/GO_0022414>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50183> (P450 inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50183> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0019825>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50184> (ion transport inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50184> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0006811>)))
@@ -997,6 +1001,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_67198> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_67230> (glucosylceramidase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_67230> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004348>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_67232> (oligo-1,6-glucosidase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_67232> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004574>)))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_67239> (alpha-glucosidase inhibitor)
 
