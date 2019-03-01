@@ -411,12 +411,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP:0000822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP:0000822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>Hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP:0001903 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP:0001903">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>Anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP:0002017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP:0002017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP:0025031"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>Nausea and vomiting</rdfs:label>
     </owl:Class>
     
 
@@ -437,6 +457,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>Abnormality of the immune system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP:0012393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP:0012393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP:0002715"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>Allergy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP:0025031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP:0025031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>Abnormality of the digestive system</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
