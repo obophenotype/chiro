@@ -1043,6 +1043,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_73136> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_73354> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004111>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75381> (peroxidases inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75381> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004601>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75596> (isomerase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75596> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0016853>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_75598> (D-alanine--D-alanine ligase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75598> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0008716>)))
@@ -1050,6 +1058,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75598> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_75599> (glutamate--cysteine ligase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75599> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004357>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75603> (ligase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75603> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0016874>)))
 
 
 )
