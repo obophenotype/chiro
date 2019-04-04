@@ -193,6 +193,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35634> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35718> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35674> (antihypertensive agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35674> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/HP:0000822>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35842> (antirheumatic drug)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35842> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_23888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/MP_0003561>)))
@@ -465,6 +469,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50792> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50843> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#antagonist_of> <http://purl.obolibrary.org/obo/GO:0006705>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50857> (anti-allergic agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50857> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_23888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/HP:0012393>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50864> (insulin-sensitizing drug)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50864> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#sensitizer_of> <http://purl.obolibrary.org/GO_0016088>)))
@@ -480,6 +488,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50914> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50916> (lipid kinase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50916> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0001727>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50919> (antiemetic)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50919> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/HP:0002017>)))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50925> (non-specific serine/threonine protein kinase inhibitor)
 
@@ -941,6 +953,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64996> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_65001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0004806>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_65023> (anti-asthmatic agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_65023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/HP:0002099>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_65053> (arginine decarboxylase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_65053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0008792>)))
@@ -1063,6 +1079,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_73136> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_73354> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004111>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75381> (peroxidases inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75381> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004601>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75596> (isomerase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75596> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0016853>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_75598> (D-alanine--D-alanine ligase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75598> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0008716>)))
@@ -1090,6 +1114,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_12721> 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_4751> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_4751> "NCBITaxon_4751")
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75603> (ligase inhibitor)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75603> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0016874>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_75835> (anti-anaemic agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75835> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/HP:0001903>)))
 
 
 )
