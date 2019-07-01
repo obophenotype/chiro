@@ -37,6 +37,11 @@ imports/%_import.owl: chiro-edit.owl %.owl imports/seed.tsv
 	robot extract -i $*.owl -T imports/seed.tsv -m BOT -O $(OBO)/chiro/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 #	owltools --use-catalog $< $(OBO)/$*.owl  --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
+imports/chebi-role.owl: chebi.owl
+	robot filter -i $< --term CHEBI:50906 --select "annotations self descendants" \
+	--signature true \
+	--output $@
+
 chebi.owl:
 	wget $(OBO)/chebi.owl
 
@@ -92,3 +97,5 @@ role-xp-unvetted.obo: role-list-mined.txt
 
 chiro-xp.owl: role-xp.obo
 	owltools $< -o -f ofn $@
+
+include Makefile-mappings
