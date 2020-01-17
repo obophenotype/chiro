@@ -35,7 +35,7 @@ See screenshots below for more examples
 
 This provides connections between CHEBI and other OBO ontologies.
 
-It's ot clear if the same information could be obtained by other
+It's not clear if the same information could be obtained by other
 sources, e.g. DrugBank, and the extent to which the relationships
 would overlap.
 
