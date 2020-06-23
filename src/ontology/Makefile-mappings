@@ -5,7 +5,7 @@ imports/mesh-chemrole.owl: mesh-obo.owl
 	--output $@
         
 imports/ncit-chemeffect.owl: ncit.owl
-	robot filter -i $< --term http://purl.obolibrary.org/obo/C19996 --select "annotations self descendants" \
+	robot filter -i $< --term http://purl.obolibrary.org/obo/NCIT_C19996 --select "annotations self descendants" \
 	--signature true \
 	--output $@
 
