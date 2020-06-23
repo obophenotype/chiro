@@ -3,9 +3,20 @@ imports/mesh-chemrole.owl: mesh-obo.owl
 	robot filter -i $< --term http://id.nlm.nih.gov/mesh/D020164 --select "annotations self descendants" \
 	--signature true \
 	--output $@
+        
+imports/ncit-chemeffect.owl: ncit.owl
+	robot filter -i $< --term http://purl.obolibrary.org/obo/C19996 --select "annotations self descendants" \
+	--signature true \
+	--output $@
 
 mappings/mesh-chebi-role-mappings.tsv: imports/mesh-chemrole.owl imports/chebi-role.owl
-	rdfmatch -f tsv -l -d rdf_matcher -i prefixes.ttl -i $< -i imports/chebi-role.owl new_match > $@.tmp && mv $@.tmp $@
+	rdfmatch -p CHEBI rdf_matcher -i prefixes.ttl -i $< -i imports/chebi-role.owl match > $@.tmp && mv $@.tmp $@
+
+mappings/ncit-chebi-role-mappings.tsv: imports/ncit-chemeffect.owl imports/chebi-role.owl
+	rdfmatch -p CHEBI -d rdf_matcher -i prefixes.ttl -i $< -i imports/chebi-role.owl match > $@.tmp && mv $@.tmp $@
+
+mappings/ncit-mesh-role-mappings.tsv: imports/ncit-chemeffect.owl imports/mesh-chemrole.owl
+	rdfmatch -p NCIT -d rdf_matcher -i prefixes.ttl -i $< -i imports/mesh-chemrole.owl match > $@.tmp && mv $@.tmp $@
 
 mappings/mesh-chebi-role-mappings-unique.tsv: mappings/mesh-chebi-role-mappings.tsv
 	cut -f1-4 $< | sort -u > $@

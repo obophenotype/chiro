@@ -1,0 +1,20 @@
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+[
+ sh:declare
+  [
+    sh:prefix "CHEBI" ; 
+    sh:namespace "http://purl.obolibrary.org/obo/CHEBI_"
+  ] ,
+  [
+    sh:prefix "NCIT" ; 
+    sh:namespace "http://purl.obolibrary.org/obo/NCIT_"
+  ] ,
+  [
+    sh:prefix "MESH" ;
+    sh:namespace "http://id.nlm.nih.gov/mesh/"
+  ] 
+].
+    
+    
