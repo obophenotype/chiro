@@ -22,9 +22,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004718>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008415>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11676>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11709>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12721>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4751>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001221>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000001247>))
@@ -184,6 +188,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35625> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35634> (xanthine oxidase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35634> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0004855>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35718> (antifungal agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35718> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35674> (antihypertensive agent)
 
@@ -909,9 +917,21 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64924> ObjectIntersectio
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64933> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO_0042438>)))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64946> (anti-HIV agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64946> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_12721>)))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_64947> (anti-HIV-1 agent)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64947> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_11676>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64949> (anti-HIV-2 agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64949> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_11709>)))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64951> (anti-HBV agent)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_64951> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/NCBITaxon_10407>)))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_64955> (heparanase inhibitor)
 
@@ -1074,6 +1094,26 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75598> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/CHEBI_75599> (glutamate--cysteine ligase inhibitor)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_75599> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> <http://purl.obolibrary.org/obo/GO:0004357>)))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_10407> (NCBITaxon_10407)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_10407> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_10407> "NCBITaxon_10407")
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_11709> (NCBITaxon_11709)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_11709> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_11709> "NCBITaxon_11709")
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_12721> (NCBITaxon_12721)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_12721> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_12721> "NCBITaxon_12721")
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_4751> (NCBITaxon_4751)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_4751> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_4751> "NCBITaxon_4751")
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_75603> (ligase inhibitor)
 
