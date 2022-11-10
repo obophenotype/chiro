@@ -1,0 +1,289 @@
+CHEBI:22153	acaricide	MESH:D056810	Acaricides
+CHEBI:22333	alkylating agent	MESH:D000477	Alkylating Agents
+CHEBI:22586	antioxidant	MESH:D000975	Antioxidants
+CHEBI:22587	antiviral agent	MESH:D000998	Antiviral Agents
+CHEBI:22986	calcium ionophore	MESH:D061207	Calcium Ionophores
+CHEBI:23018	carbonic anhydrase inhibitor	MESH:D002257	Carbonic Anhydrase Inhibitors
+CHEBI:23092	chemosterilant	MESH:D002629	Chemosterilants
+CHEBI:23924	enzyme inhibitor	MESH:D004791	Enzyme Inhibitors
+CHEBI:24527	herbicide	MESH:D006540	Herbicides
+CHEBI:24621	hormone	MESH:D006728	Hormones
+CHEBI:24852	insecticide	MESH:D007306	Insecticides
+CHEBI:24853	intercalator	MESH:D007364	Intercalating Agents
+CHEBI:24869	ionophore	MESH:D007476	Ionophores
+CHEBI:25435	mutagen	MESH:D009153	Mutagens
+CHEBI:25491	nematicide	MESH:D000969	Antinematodal Agents
+CHEBI:25943	pesticide synergist	MESH:D010574	Pesticide Synergists
+CHEBI:25944	pesticide	MESH:D010575	Pesticides
+CHEBI:26155	plant growth regulator	MESH:D010937	Plant Growth Regulators
+CHEBI:26672	siderophore	MESH:D017262	Siderophores
+CHEBI:27027	micronutrient	MESH:D018977	Micronutrients
+CHEBI:27780	detergent	MESH:D003902	Detergents
+CHEBI:33229	vitamin	MESH:D014815	Vitamins
+CHEBI:33231	antitubercular agent	MESH:D000995	Antitubercular Agents
+CHEBI:33282	antibacterial agent	MESH:D000900	Anti-Bacterial Agents
+CHEBI:33286	agrochemical	MESH:D016573	Agrochemicals
+CHEBI:33287	fertilizer	MESH:D005308	Fertilizers
+CHEBI:33288	rodenticide	MESH:D012378	Rodenticides
+CHEBI:35195	surfactant	MESH:D013501	Surface-Active Agents
+CHEBI:35221	antimetabolite	MESH:D000963	Antimetabolites
+CHEBI:35225	buffer	MESH:D002021	Buffers
+CHEBI:35232	radiopharmaceutical	MESH:D019275	Radiopharmaceuticals
+CHEBI:35337	central nervous system stimulant	MESH:D000697	Central Nervous System Stimulants
+CHEBI:35441	antiinfective agent	MESH:D000890	Anti-Infective Agents
+CHEBI:35442	antiparasitic agent	MESH:D000977	Antiparasitic Agents
+CHEBI:35443	anthelminthic drug	MESH:D000871	Anthelmintics
+CHEBI:35444	antinematodal drug	MESH:D000969	Antinematodal Agents
+CHEBI:35457	angiotensin-converting enzyme inhibitor	MESH:D000806	Angiotensin-Converting Enzyme Inhibitors
+CHEBI:35469	antidepressant	MESH:D000928	Antidepressive Agents
+CHEBI:35470	central nervous system drug	MESH:D002491	Central Nervous System Agents
+CHEBI:35471	psychotropic drug	MESH:D011619	Psychotropic Drugs
+CHEBI:35472	anti-inflammatory drug	MESH:D000893	Anti-Inflammatory Agents
+CHEBI:35473	tranquilizing drug	MESH:D014149	Tranquilizing Agents
+CHEBI:35474	anxiolytic drug	MESH:D014151	Anti-Anxiety Agents
+CHEBI:35475	non-steroidal anti-inflammatory drug	MESH:D000894	Anti-Inflammatory Agents, Non-Steroidal
+CHEBI:35476	antipsychotic agent	MESH:D014150	Antipsychotic Agents
+CHEBI:35477	antimanic drug	MESH:D018692	Antimanic Agents
+CHEBI:35480	analgesic	MESH:D000700	Analgesics
+CHEBI:35482	opioid analgesic	MESH:D000701	Analgesics, Opioid
+CHEBI:35482	opioid analgesic	MESH:D009294	Narcotics
+CHEBI:35488	central nervous system depressant	MESH:D002492	Central Nervous System Depressants
+CHEBI:35493	antipyretic	MESH:D058633	Antipyretics
+CHEBI:35497	androgen antagonist	MESH:D000726	Androgen Antagonists
+CHEBI:35498	diuretic	MESH:D004232	Diuretics
+CHEBI:35499	hallucinogen	MESH:D006213	Hallucinogens
+CHEBI:35522	beta-adrenergic agonist	MESH:D000318	Adrenergic beta-Agonists
+CHEBI:35523	bronchodilator agent	MESH:D001993	Bronchodilator Agents
+CHEBI:35524	sympathomimetic agent	MESH:D013566	Sympathomimetics
+CHEBI:35526	hypoglycemic agent	MESH:D007004	Hypoglycemic Agents
+CHEBI:35530	beta-adrenergic antagonist	MESH:D000319	Adrenergic beta-Antagonists
+CHEBI:35544	cyclooxygenase inhibitor	MESH:D016861	Cyclooxygenase Inhibitors
+CHEBI:35554	cardiovascular drug	MESH:D002317	Cardiovascular Agents
+CHEBI:35569	alpha-adrenergic agonist	MESH:D000316	Adrenergic alpha-Agonists
+CHEBI:35610	antineoplastic agent	MESH:D000970	Antineoplastic Agents
+CHEBI:35610	antineoplastic agent	MESH:D054697	Cytostatic Agents
+CHEBI:35620	vasodilator agent	MESH:D014665	Vasodilator Agents
+CHEBI:35623	anticonvulsant	MESH:D000927	Anticonvulsants
+CHEBI:35625	beta-lactamase inhibitor	MESH:D065093	beta-Lactamase Inhibitors
+CHEBI:35640	adrenergic uptake inhibitor	MESH:D018759	Adrenergic Uptake Inhibitors
+CHEBI:35660	HIV protease inhibitor	MESH:D017320	HIV Protease Inhibitors
+CHEBI:35664	hydroxymethylglutaryl-CoA reductase inhibitor	MESH:D019161	Hydroxymethylglutaryl-CoA Reductase Inhibitors
+CHEBI:35674	antihypertensive agent	MESH:D000959	Antihypertensive Agents
+CHEBI:35678	histamine agonist	MESH:D017442	Histamine Agonists
+CHEBI:35679	antilipemic drug	MESH:D000960	Hypolipidemic Agents
+CHEBI:35684	antiplatyhelmintic drug	MESH:D000980	Antiplatyhelmintic Agents
+CHEBI:35705	immunosuppressive agent	MESH:D007166	Immunosuppressive Agents
+CHEBI:35718	antifungal agent	MESH:D000935	Antifungal Agents
+CHEBI:35816	leprostatic drug	MESH:D007917	Leprostatic Agents
+CHEBI:35818	coccidiostat	MESH:D003049	Coccidiostats
+CHEBI:35820	antiprotozoal drug	MESH:D000981	Antiprotozoal Agents
+CHEBI:35821	anticholesteremic drug	MESH:D000924	Anticholesteremic Agents
+CHEBI:35841	uricosuric drug	MESH:D014528	Uricosuric Agents
+CHEBI:35842	antirheumatic drug	MESH:D018501	Antirheumatic Agents
+CHEBI:35845	gout suppressant	MESH:D006074	Gout Suppressants
+CHEBI:35846	renal agent	MESH:D012076	Renal Agents
+CHEBI:35856	lipoxygenase inhibitor	MESH:D016859	Lipoxygenase Inhibitors
+CHEBI:35941	serotonergic agonist	MESH:D017366	Serotonin Receptor Agonists
+CHEBI:35942	neurotransmitter agent	MESH:D018377	Neurotransmitter Agents
+CHEBI:36044	antiviral drug	MESH:D000998	Antiviral Agents
+CHEBI:36050	antitreponemal drug	MESH:D000993	Antitreponemal Agents
+CHEBI:36063	oxytocic	MESH:D010120	Oxytocics
+CHEBI:36335	trypanocidal drug	MESH:D014344	Trypanocidal Agents
+CHEBI:36413	anabolic agent	MESH:D045930	Anabolic Agents
+CHEBI:36710	interferon inducer	MESH:D007369	Interferon Inducers
+CHEBI:37338	radioopaque medium	MESH:D003287	Contrast Media
+CHEBI:37670	protease inhibitor	MESH:D011480	Protease Inhibitors
+CHEBI:37699	protein kinase inhibitor	MESH:D047428	Protein Kinase Inhibitors
+CHEBI:37733	cholinesterase inhibitor	MESH:D002800	Cholinesterase Inhibitors
+CHEBI:37845	growth hormone	MESH:D013006	Growth Hormone
+CHEBI:37886	adrenergic agonist	MESH:D000322	Adrenergic Agonists
+CHEBI:37887	adrenergic antagonist	MESH:D018674	Adrenergic Antagonists
+CHEBI:37890	alpha-adrenergic antagonist	MESH:D000317	Adrenergic alpha-Antagonists
+CHEBI:37955	H1-receptor antagonist	MESH:D006634	Histamine H1 Antagonists
+CHEBI:37956	histamine antagonist	MESH:D006633	Histamine Antagonists
+CHEBI:37957	histaminergic drug	MESH:D018494	Histamine Agents
+CHEBI:37961	H2-receptor antagonist	MESH:D006635	Histamine H2 Antagonists
+CHEBI:37962	adrenergic agent	MESH:D018663	Adrenergic Agents
+CHEBI:38068	antimalarial	MESH:D000962	Antimalarials
+CHEBI:38070	anti-arrhythmia drug	MESH:D000889	Anti-Arrhythmia Agents
+CHEBI:38147	cardiotonic drug	MESH:D002316	Cardiotonic Agents
+CHEBI:38157	iron chelator	MESH:D007502	Iron Chelating Agents
+CHEBI:38161	chelator	MESH:D002614	Chelating Agents
+CHEBI:38215	calcium channel blocker	MESH:D002121	Calcium Channel Blockers
+CHEBI:38323	cholinergic drug	MESH:D018678	Cholinergic Agents
+CHEBI:38324	cholinergic agonist	MESH:D018679	Cholinergic Agonists
+CHEBI:38325	muscarinic agonist	MESH:D018721	Muscarinic Agonists
+CHEBI:38623	monoamine oxidase inhibitor	MESH:D008996	Monoamine Oxidase Inhibitors
+CHEBI:38632	membrane transport modulator	MESH:D049990	Membrane Transport Modulators
+CHEBI:38633	sodium channel blocker	MESH:D026941	Sodium Channel Blockers
+CHEBI:38634	voltage-gated sodium channel blocker	MESH:D061567	Voltage-Gated Sodium Channel Blockers
+CHEBI:38807	calcium channel agonist	MESH:D002120	Calcium Channel Agonists
+CHEBI:38849	blood substitute	MESH:D001802	Blood Substitutes
+CHEBI:38867	anaesthetic	MESH:D000777	Anesthetics
+CHEBI:38869	general anaesthetic	MESH:D018681	Anesthetics, General
+CHEBI:38870	inhalation anaesthetic	MESH:D018685	Anesthetics, Inhalation
+CHEBI:38877	intravenous anaesthetic	MESH:D018686	Anesthetics, Intravenous
+CHEBI:38941	schistosomicide drug	MESH:D012556	Schistosomicides
+CHEBI:46787	solvent	MESH:D012997	Solvents
+CHEBI:47868	photosensitizing agent	MESH:D017319	Photosensitizing Agents
+CHEBI:47958	nicotinic agonist	MESH:D018721	Muscarinic Agonists
+CHEBI:47958	nicotinic agonist	MESH:D018722	Nicotinic Agonists
+CHEBI:48001	protein synthesis inhibitor	MESH:D011500	Protein Synthesis Inhibitors
+CHEBI:48218	antiseptic drug	MESH:D000891	Anti-Infective Agents, Local
+CHEBI:48219	disinfectant	MESH:D004202	Disinfectants
+CHEBI:48278	serotonergic drug	MESH:D018490	Serotonin Agents
+CHEBI:48279	serotonergic antagonist	MESH:D012702	Serotonin Antagonists
+CHEBI:48318	fragrance	MESH:D010476	Perfume
+CHEBI:48353	serine proteinase inhibitor	MESH:D015842	Serine Proteinase Inhibitors
+CHEBI:48406	catechol O-methyltransferase inhibitor	MESH:D065098	Catechol O-Methyltransferase Inhibitors
+CHEBI:48407	antiparkinson drug	MESH:D000978	Antiparkinson Agents
+CHEBI:48422	angiogenesis inhibitor	MESH:D020533	Angiogenesis Inhibitors
+CHEBI:48560	dopaminergic agent	MESH:D015259	Dopamine Agents
+CHEBI:48561	dopaminergic antagonist	MESH:D018492	Dopamine Antagonists
+CHEBI:48578	radical scavenger	MESH:D016166	Free Radical Scavengers
+CHEBI:48675	antifibrinolytic drug	MESH:D000933	Antifibrinolytic Agents
+CHEBI:48676	fibrin modulating drug	MESH:D050299	Fibrin Modulating Agents
+CHEBI:48873	cholinergic antagonist	MESH:D018680	Cholinergic Antagonists
+CHEBI:48876	muscarinic antagonist	MESH:D018727	Muscarinic Antagonists
+CHEBI:48878	nicotinic antagonist	MESH:D018733	Nicotinic Antagonists
+CHEBI:49020	hormone antagonist	MESH:D006727	Hormone Antagonists
+CHEBI:49023	prostaglandin antagonist	MESH:D011448	Prostaglandin Antagonists
+CHEBI:49110	peripheral nervous system drug	MESH:D018373	Peripheral Nervous System Agents
+CHEBI:49159	leukotriene antagonist	MESH:D020024	Leukotriene Antagonists
+CHEBI:49167	anti-asthmatic drug	MESH:D018927	Anti-Asthmatic Agents
+CHEBI:49200	proton pump inhibitor	MESH:D054328	Proton Pump Inhibitors
+CHEBI:49201	anti-ulcer drug	MESH:D000897	Anti-Ulcer Agents
+CHEBI:49323	contraceptive drug	MESH:D003270	Contraceptive Agents
+CHEBI:49325	oral contraceptive	MESH:D003276	Contraceptives, Oral
+CHEBI:50103	excitatory amino acid agonist	MESH:D018690	Excitatory Amino Acid Agonists
+CHEBI:50112	sex hormone	MESH:D012739	Gonadal Steroid Hormones
+CHEBI:50141	bronchoconstrictor agent	MESH:D016085	Bronchoconstrictor Agents
+CHEBI:50176	keratolytic drug	MESH:D007641	Keratolytic Agents
+CHEBI:50177	dermatologic drug	MESH:D003879	Dermatologic Agents
+CHEBI:50185	fatty acid synthesis inhibitor	MESH:D054872	Fatty Acid Synthesis Inhibitors
+CHEBI:50218	phosphodiesterase inhibitor	MESH:D010726	Phosphodiesterase Inhibitors
+CHEBI:50241	cholinesterase reactivator	MESH:D002801	Cholinesterase Reactivators
+CHEBI:50242	enzyme reactivator	MESH:D004793	Enzyme Reactivators
+CHEBI:50247	antidote	MESH:D000931	Antidotes
+CHEBI:50248	hematologic agent	MESH:D006401	Hematologic Agents
+CHEBI:50249	anticoagulant	MESH:D000925	Anticoagulants
+CHEBI:50267	protective agent	MESH:D020011	Protective Agents
+CHEBI:50268	GABA modulator	MESH:D018757	GABA Modulators
+CHEBI:50276	topoisomerase I inhibitor	MESH:D059004	Topoisomerase I Inhibitors
+CHEBI:50370	parasympatholytic	MESH:D010276	Parasympatholytics
+CHEBI:50427	platelet aggregation inhibitor	MESH:D010975	Platelet Aggregation Inhibitors
+CHEBI:50445	adenosine deaminase inhibitor	MESH:D058892	Adenosine Deaminase Inhibitors
+CHEBI:50469	phospholipase A2 inhibitor	MESH:D064801	Phospholipase A2 Inhibitors
+CHEBI:50503	laxative	MESH:D054368	Laxatives
+CHEBI:50504	osmotic diuretic	MESH:D004234	Diuretics, Osmotic
+CHEBI:50505	sweetening agent	MESH:D013549	Sweetening Agents
+CHEBI:50507	appetite depressant	MESH:D001067	Appetite Depressants
+CHEBI:50509	potassium channel blocker	MESH:D026902	Potassium Channel Blockers
+CHEBI:50513	mydriatic agent	MESH:D009184	Mydriatics
+CHEBI:50514	vasoconstrictor agent	MESH:D014662	Vasoconstrictor Agents
+CHEBI:50566	nitric oxide donor	MESH:D020030	Nitric Oxide Donors
+CHEBI:50629	cyclooxygenase 2 inhibitor	MESH:D052246	Cyclooxygenase 2 Inhibitors
+CHEBI:50646	bone density conservation agent	MESH:D050071	Bone Density Conservation Agents
+CHEBI:50664	matrix metalloproteinase inhibitor	MESH:D061965	Matrix Metalloproteinase Inhibitors
+CHEBI:50671	antithyroid drug	MESH:D013956	Antithyroid Agents
+CHEBI:50683	dihydrofolate reductase inhibitor	MESH:D005493	Folic Acid Antagonists
+CHEBI:50684	cross-linking reagent	MESH:D003432	Cross-Linking Reagents
+CHEBI:50685	antitrichomonal drug	MESH:D000994	Antitrichomonal Agents
+CHEBI:50689	reproductive control drug	MESH:D012102	Reproductive Control Agents
+CHEBI:50691	abortifacient	MESH:D000019	Abortifacient Agents
+CHEBI:50739	estrogen receptor modulator	MESH:D020847	Estrogen Receptor Modulators
+CHEBI:50745	progestogen	MESH:D011372	Progestins
+CHEBI:50750	topoisomerase II inhibitor	MESH:D059005	Topoisomerase II Inhibitors
+CHEBI:50779	appetite enhancer	MESH:D019167	Appetite Stimulants
+CHEBI:50790	aromatase inhibitor	MESH:D047072	Aromatase Inhibitors
+CHEBI:50792	estrogen receptor antagonist	MESH:D065171	Estrogen Receptor Antagonists
+CHEBI:50837	estrogen antagonist	MESH:D004965	Estrogen Antagonists
+CHEBI:50846	immunomodulator	MESH:D007155	Immunologic Factors
+CHEBI:50847	immunological adjuvant	MESH:D000276	Adjuvants, Immunologic
+CHEBI:50857	anti-allergic agent	MESH:D018926	Anti-Allergic Agents
+CHEBI:50903	carcinogenic agent	MESH:D002273	Carcinogens
+CHEBI:50905	teratogenic agent	MESH:D013723	Teratogens
+CHEBI:50910	neurotoxin	MESH:D009498	Neurotoxins
+CHEBI:50912	cardiotoxic agent	MESH:D054715	Cardiotoxins
+CHEBI:50913	fixative	MESH:D005404	Fixatives
+CHEBI:50919	antiemetic	MESH:D000932	Antiemetics
+CHEBI:50926	angiogenesis modulating agent	MESH:D043924	Angiogenesis Modulating Agents
+CHEBI:50927	angiogenesis inducing agent	MESH:D043925	Angiogenesis Inducing Agents
+CHEBI:50949	serotonin uptake inhibitor	MESH:D017367	Serotonin Uptake Inhibitors
+CHEBI:51039	dopamine uptake inhibitor	MESH:D018765	Dopamine Uptake Inhibitors
+CHEBI:51065	dopamine agonist	MESH:D018491	Dopamine Agonists
+CHEBI:51068	miotic	MESH:D008916	Miotics
+CHEBI:51121	fluorescent dye	MESH:D005456	Fluorescent Dyes
+CHEBI:51177	antitussive	MESH:D000996	Antitussive Agents
+CHEBI:51372	neuromuscular agent	MESH:D009465	Neuromuscular Agents
+CHEBI:51373	GABA agonist	MESH:D018755	GABA Agonists
+CHEBI:51374	GABA agent	MESH:D018682	GABA Agents
+CHEBI:51451	endothelin receptor antagonist	MESH:D065128	Endothelin Receptor Antagonists
+CHEBI:51452	endothelin A receptor antagonist	MESH:D065130	Endothelin A Receptor Antagonists
+CHEBI:52214	ligand	MESH:D008024	Ligands
+CHEBI:52290	mitogen	MESH:D008934	Mitogens
+CHEBI:52424	glycoside hydrolase inhibitor	MESH:D065089	Glycoside Hydrolase Inhibitors
+CHEBI:52726	proteasome inhibitor	MESH:D061988	Proteasome Inhibitors
+CHEBI:53337	tissue adhesive	MESH:D014014	Tissue Adhesives
+CHEBI:55323	antidiarrhoeal drug	MESH:D000930	Antidiarrheals
+CHEBI:55324	gastrointestinal drug	MESH:D005765	Gastrointestinal Agents
+CHEBI:55350	neurokinin-1 receptor antagonist	MESH:D064729	Neurokinin-1 Receptor Antagonists
+CHEBI:59321	aromatic-L-amino-acid decarboxylase inhibitor	MESH:D065105	Aromatic Amino Acid Decarboxylase Inhibitors
+CHEBI:59683	antipruritic drug	MESH:D000982	Antipruritics
+CHEBI:59826	progestin	MESH:D011372	Progestins
+CHEBI:59886	HIV fusion inhibitor	MESH:D023581	HIV Fusion Inhibitors
+CHEBI:59897	reverse transcriptase inhibitor	MESH:D018894	Reverse Transcriptase Inhibitors
+CHEBI:60258	peptidase inhibitor	MESH:D011480	Protease Inhibitors
+CHEBI:60311	thyroid hormone	MESH:D013963	Thyroid Hormones
+CHEBI:60605	opioid receptor antagonist	MESH:D009292	Narcotic Antagonists
+CHEBI:60788	affinity label	MESH:D000345	Affinity Labels
+CHEBI:60798	excitatory amino acid antagonist	MESH:D018691	Excitatory Amino Acid Antagonists
+CHEBI:60832	tubulin modulator	MESH:D050257	Tubulin Modulators
+CHEBI:61016	angiotensin receptor antagonist	MESH:D057911	Angiotensin Receptor Antagonists
+CHEBI:61115	histone deacetylase inhibitor	MESH:D056572	Histone Deacetylase Inhibitors
+CHEBI:62670	phosphoprotein phosphatase inhibitor	MESH:D065095	Calcineurin Inhibitors
+CHEBI:63175	peptidomimetic	MESH:D057786	Peptidomimetics
+CHEBI:63247	reducing agent	MESH:D019163	Reducing Agents
+CHEBI:63248	oxidising agent	MESH:D016877	Oxidants
+CHEBI:63490	explosive	MESH:D053834	Explosive Agents
+CHEBI:63726	neuroprotective agent	MESH:D018696	Neuroprotective Agents
+CHEBI:63957	adenosine A1 receptor antagonist	MESH:D058916	Adenosine A1 Receptor Antagonists
+CHEBI:64047	food additive	MESH:D005503	Food Additives
+CHEBI:64152	cysteine protease inhibitor	MESH:D015853	Cysteine Proteinase Inhibitors
+CHEBI:64857	cosmetic	MESH:D003358	Cosmetics
+CHEBI:64909	poison	MESH:D011042	Poisons
+CHEBI:64911	antimitotic	MESH:D050256	Antimitotic Agents
+CHEBI:64926	serine protease inhibitor	MESH:D015842	Serine Proteinase Inhibitors
+CHEBI:64946	anti-HIV agent	MESH:D019380	Anti-HIV Agents
+CHEBI:65023	anti-asthmatic agent	MESH:D018927	Anti-Asthmatic Agents
+CHEBI:65057	adenosine A1 receptor agonist	MESH:D058907	Adenosine A1 Receptor Agonists
+CHEBI:65255	food preservative	MESH:D005520	Food Preservatives
+CHEBI:65259	GABA antagonist	MESH:D018756	GABA Antagonists
+CHEBI:65265	antacid	MESH:D000863	Antacids
+CHEBI:66980	nootropic agent	MESH:D018697	Nootropic Agents
+CHEBI:66987	radiation protective agent	MESH:D011837	Radiation-Protective Agents
+CHEBI:66991	sympatholytic agent	MESH:D013565	Sympatholytics
+CHEBI:66993	tocolytic agent	MESH:D015149	Tocolytic Agents
+CHEBI:67072	cannabinoid receptor agonist	MESH:D063386	Cannabinoid Receptor Agonists
+CHEBI:67079	anti-inflammatory agent	MESH:D000893	Anti-Inflammatory Agents
+CHEBI:67170	anti-angiogenic agent	MESH:D020533	Angiogenesis Inhibitors
+CHEBI:68557	bradykinin receptor antagonist	MESH:D065168	Bradykinin Receptor Antagonists
+CHEBI:68581	coagulation factor Xa inhibitor	MESH:D065427	Factor Xa Inhibitors
+CHEBI:68612	dipeptidyl peptidase-4 inhibitor	MESH:D054873	Dipeptidyl-Peptidase IV Inhibitors
+CHEBI:68844	phosphodiesterase IV inhibitor	MESH:D058988	Phosphodiesterase 4 Inhibitors
+CHEBI:70725	adenosine A3 receptor antagonist	MESH:D058918	Adenosine A3 Receptor Antagonists
+CHEBI:70727	topoisomerase inhibitor	MESH:D059003	Topoisomerase Inhibitors
+CHEBI:71232	adenosine receptor antagonist	MESH:D058915	Purinergic P1 Receptor Antagonists
+CHEBI:71692	insect repellent	MESH:D007302	Insect Repellents
+CHEBI:71942	phosphodiesterase V inhibitor	MESH:D058986	Phosphodiesterase 5 Inhibitors
+CHEBI:73190	antimutagen	MESH:D016587	Antimutagenic Agents
+CHEBI:73311	adenosine receptor agonist	MESH:D058906	Purinergic P1 Receptor Agonists
+CHEBI:73319	adenosine A3 receptor agonist	MESH:D058909	Adenosine A3 Receptor Agonists
+CHEBI:73413	cannabinoid receptor antagonist	MESH:D063387	Cannabinoid Receptor Antagonists
+CHEBI:73913	antifolate	MESH:D005493	Folic Acid Antagonists
+CHEBI:74518	anti-obesity agent	MESH:D019440	Anti-Obesity Agents
+CHEBI:74783	astringent	MESH:D001252	Astringents
+CHEBI:75050	chromogenic compound	MESH:D002863	Chromogenic Compounds
+CHEBI:75324	excipient	MESH:D005079	Excipients
+CHEBI:75325	cathartic	MESH:D002400	Cathartics
+CHEBI:75769	B vitamin	MESH:D014803	Vitamin B Complex

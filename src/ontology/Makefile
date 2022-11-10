@@ -37,6 +37,11 @@ imports/%_import.owl: chiro-edit.owl %.owl imports/seed.tsv
 	robot extract -i $*.owl -T imports/seed.tsv -m BOT -O $(OBO)/chiro/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 #	owltools --use-catalog $< $(OBO)/$*.owl  --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
 
+imports/chebi-role.owl: chebi.owl
+	robot filter -i $< --term CHEBI:50906 --select "annotations self descendants" \
+	--signature true \
+	--output $@
+
 chebi.owl:
 	wget $(OBO)/chebi.owl
 
@@ -92,3 +97,39 @@ role-xp-unvetted.obo: role-list-mined.txt
 
 chiro-xp.owl: role-xp.obo
 	owltools $< -o -f ofn $@
+
+# ----------------------------------------
+# Mappings
+# ----------------------------------------
+
+imports/mesh-chemrole.owl: mesh-obo.owl
+	robot filter -i $< --term http://id.nlm.nih.gov/mesh/D020164 --select "annotations self descendants" \
+	--signature true \
+	--output $@
+
+imports/ncit-chemeffect.owl: ncit.owl
+	robot filter -i $< --term http://purl.obolibrary.org/obo/NCIT_C19996 --select "annotations self descendants" \
+	--signature true \
+	--output $@
+
+mappings/mesh-chebi-role-mappings.tsv: imports/mesh-chemrole.owl imports/chebi-role.owl
+	rdfmatch -p CHEBI -w mappings/chebi_mesh_weights.pro  -i prefixes.ttl -i $< -i imports/chebi-role.owl match > $@.tmp && mv $@.tmp $@
+
+mappings/ncit-chebi-role-mappings.tsv: imports/ncit-chemeffect.owl imports/chebi-role.owl
+	rdfmatch -p CHEBI -d rdf_matcher -i prefixes.ttl -i $< -i imports/chebi-role.owl match > $@.tmp && mv $@.tmp $@
+
+mappings/ncit-mesh-role-mappings.tsv: imports/ncit-chemeffect.owl imports/mesh-chemrole.owl
+	rdfmatch -p NCIT -d rdf_matcher -i prefixes.ttl -i $< -i imports/mesh-chemrole.owl match > $@.tmp && mv $@.tmp $@
+
+mappings/mesh-chebi-role-mappings-unique.tsv: mappings/mesh-chebi-role-mappings.tsv
+	cut -f1-4 $< | sort -u > $@
+
+mappings/%-ptable.tsv: mappings/%-mappings.tsv
+	python ~/repos/sssom-py/sssom/cli.py ptable --priors 0.01 0.01 0.88 0.1 $< > $@
+
+imports/mesh-chebi-role.owl: imports/mesh-chemrole.owl imports/ncit-chemeffect.owl
+	robot merge -i imports/mesh-chemrole.owl -i imports/ncit-chemeffect.owl -o $@
+
+mappings/mesh-chebi-role-equivs.owl: mappings/mesh-chebi-role-ptable.tsv imports/mesh-chebi-role.owl
+	boomer --ptable $< --ontology imports/mesh-chebi-role.owl --prefixes prefixes.yaml --window-count 20 --runs 20 && robot reason -A EquivalentClass -r elk -i output.ofn  -o $@
+
