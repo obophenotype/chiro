@@ -1,0 +1,9 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# Every IRI mentioned anywhere in the edit file. Used as the seed for
+# BOT module extraction of the imports.
+SELECT DISTINCT ?term
+WHERE {
+  { ?term ?p ?o } UNION { ?s ?p ?term }
+  FILTER(isIRI(?term))
+}
