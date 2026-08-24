@@ -13,7 +13,6 @@ Import(<http://purl.obolibrary.org/obo/chiro/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl>)
 Import(<http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl>)
 
-Declaration(Class(<http://purl.obolibrary.org/NCBITaxon_2>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50380>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003809>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003824>))
@@ -100,11 +99,6 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/chiro#stabilizier_of> <http:
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/NCBITaxon_2> (<http://purl.obolibrary.org/NCBITaxon_2>)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/NCBITaxon_2> "This was a duplicate and the PURL is wrong.")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/NCBITaxon_2> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_22180> (acetohydroxyacid synthase inhibitor)
 
